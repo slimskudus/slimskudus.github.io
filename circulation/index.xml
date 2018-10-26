@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 Circulation on Manual SLiMS Kudus</title>
+    <link>/circulation/</link>
+    <description>Recent content in 4 Circulation on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 05:08:12 +0700</lastBuildDate>
+    
+	<atom:link href="/circulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>4.6 Sub-menu Reservation</title>
+      <link>/circulation/4.6-sub-menu-reservation/</link>
+      <pubDate>Fri, 26 Oct 2018 05:15:18 +0700</pubDate>
+      
+      <guid>/circulation/4.6-sub-menu-reservation/</guid>
+      <description> 4.6 Sub-menu Reservation Sub-menu ini digunakan untuk melihat daftar koleksi yang sedang dipesan oleh anggota. informasi yang ada dalam menu ini adalah:
+ Item Code; Title; Member; dan Reserve Date.  </description>
+    </item>
+    
+    <item>
+      <title>4.5 Sub-menu Overdued List</title>
+      <link>/circulation/4.5-sub-menu-overdued-list/</link>
+      <pubDate>Fri, 26 Oct 2018 05:14:23 +0700</pubDate>
+      
+      <guid>/circulation/4.5-sub-menu-overdued-list/</guid>
+      <description> 4.5 Sub-menu Overdued List Merupakan fasilitas untuk mengetahui anggota-anggota dengan status terlambat. Informasi yang ditampilkan dalam fasilitas ini adalah: * Member ID; * Member Name; * Title; * Lama keterlambatan; * Loan Date; * Due Date.
+Dengan Menu ini pula kita dapat melakukan pencetakan dan pencarian data keterlambatan. Pencarian data keterlambatan dilakukan berdasarkan kategori:
+ Member ID/Member Name; Loan Date From; Loan Date Until.  </description>
+    </item>
+    
+    <item>
+      <title>4.4 Sub-menu Loan History</title>
+      <link>/circulation/4.4-sub-menu-loan-history/</link>
+      <pubDate>Fri, 26 Oct 2018 05:13:35 +0700</pubDate>
+      
+      <guid>/circulation/4.4-sub-menu-loan-history/</guid>
+      <description>4.4 Sub-menu Loan History Berisi data transaksi yang pernah dilakukan. Data yang muncul terdiri dari:
+ Member ID; Member Name; Item Code; Title; Loan date; Due date.  Dalam sub-menu ini disediakan fasilitas untuk mencetak daftar sejarah peminjaman. Selain itu dimungkinkan pula untuk melakukan pencarian data sejarah peminjaman. Pencarian data sejaran peminjaman ini dilakukan berdasarkan:
+ Member ID/Member Name; Document Title; Item Code; Loan Date From; dan Loan Date Until.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Sub-menu Loan Rules</title>
+      <link>/circulation/4.3-sub-menu-loan-rules/</link>
+      <pubDate>Fri, 26 Oct 2018 05:12:34 +0700</pubDate>
+      
+      <guid>/circulation/4.3-sub-menu-loan-rules/</guid>
+      <description>4.3 Sub-menu Loan Rules Merupakan fasilitas untuk mendefinisikan secara spesifik aturan peminjaman yang didasarkan pada Member Type, Collection Type, GMD. Aturan yang ditetapkan dalam fasilitas ini sama seperti kita membuat aturan pada sub-menu Member Type dengan mengisi ruas:
+ Loan Limit (Batas Jumlah Peminjaman); Loan Period (Periode Peminjaman); Reborrow Limit (Batas Perpanjangan); Fines Each Day (Denda per Hari); dan Overdue Grace Period (Toleransi Keterlambatan).  Contoh Pendefinisian Loan Rules:</description>
+    </item>
+    
+    <item>
+      <title>4.1 Sub-menu Start Transaction</title>
+      <link>/circulation/4.1-sub-menu-start-transaction/</link>
+      <pubDate>Fri, 26 Oct 2018 05:11:14 +0700</pubDate>
+      
+      <guid>/circulation/4.1-sub-menu-start-transaction/</guid>
+      <description>4.1 Sub-menu Start Transaction Untuk melakukan transaksi melalui Member ID (ID anggota). Setelah Member ID dimasukkan, maka akan muncul informasi anggota, yaitu:
+ Member Name (nama anggota); Member Email (surel anggota); Register Date (tanggal mendaftar); Member ID (ID anggota); Member Type (tipe keanggotaan); Expiry Date (tanggal daluwarsa keanggotaan); dan foto anggota.  Dibawahnya terdapat tabulasi:
+ Loans, untuk melakukan transaksi peminjaman; Current Loans, daftar peminjaman terkini; Reserve, untuk kebutuhan pemesanan eksemplar yang statusnya sedang dipinjam; Fines (denda), menghimpun informasi tentang denda peminjaman (jika ada).</description>
+    </item>
+    
+    <item>
+      <title>4.2 Sub-menu Quick Return</title>
+      <link>/circulation/4.2-sub-menu-quick-return/</link>
+      <pubDate>Fri, 26 Oct 2018 05:11:14 +0705</pubDate>
+      
+      <guid>/circulation/4.2-sub-menu-quick-return/</guid>
+      <description>4.2 Sub-menu Quick Return Untuk melakukan pengembalian secara cepat, tanpa harus masuk ke dalam akun pemustaka, dengan menggunakan ID eksemplar (barcode eksemplar).</description>
+    </item>
+    
+  </channel>
+</rss>

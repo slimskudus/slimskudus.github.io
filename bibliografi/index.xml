@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 Bibliografi on Manual SLiMS Kudus</title>
+    <link>/bibliografi/</link>
+    <description>Recent content in 2 Bibliografi on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2018 10:27:57 +0700</lastBuildDate>
+    
+	<atom:link href="/bibliografi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2.13 Sub-menu Item Import</title>
+      <link>/bibliografi/2.13-sub-menu-item-import/</link>
+      <pubDate>Thu, 25 Oct 2018 21:11:29 +0700</pubDate>
+      
+      <guid>/bibliografi/2.13-sub-menu-item-import/</guid>
+      <description>2.13 Sub-menu Item Import Sub-menu ini digunakan untuk memasukkan data eksemplar ke dalam pangkalan data SLiMS. Jika kegiatan ini dilakukan dari pangkalan data SLiMS yang satu ke SLiMS yang lain, maka Item Import dilakukan setelah Data Import. Artinya eksemplar akan menyesuaikan data bibliografi yang telah diimpor terlebih dahulu.</description>
+    </item>
+    
+    <item>
+      <title>2.12 Sub-menu Item Export</title>
+      <link>/bibliografi/2.12-sub-menu-item-export/</link>
+      <pubDate>Thu, 25 Oct 2018 21:07:39 +0700</pubDate>
+      
+      <guid>/bibliografi/2.12-sub-menu-item-export/</guid>
+      <description>2.12 Sub-menu Item Export Digunakan untuk mengeksport data eksemplar SLiMS kedalam format CSV Format hasil ekspor data eksemplar pada SLiMS adalah sebagai berikut:
+ &amp;ldquo;B00001&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;Reference&amp;rdquo;,&amp;ldquo;INV/B00001&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;MyLibrary&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;1&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;500000&amp;rdquo;,&amp;ldquo;Rupiah&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;2008-12-26 22:11:10&amp;rdquo;,&amp;ldquo;2008-12-26 22:14:13&amp;rdquo;,&amp;ldquo;Ajax : creating Web pages with asynchronous JavaScript and XML&amp;rdquo;
+ Format di atas merupakan acuan jika ingin memasukkan data eksemplar .csv ke SLiMS. Untuk melihat pola kolom yang digunakan pada data eksemplar di SLiMS dengan jelas, buka berkas .csv menggunakan aplikasi lembar-sebar seperti MS-Excel atau LibreOffice Spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>2.11 Sub-menu Data Import</title>
+      <link>/bibliografi/2.11-sub-menu-data-import/</link>
+      <pubDate>Thu, 25 Oct 2018 21:05:01 +0700</pubDate>
+      
+      <guid>/bibliografi/2.11-sub-menu-data-import/</guid>
+      <description>2.11 Sub-menu Data Import Sub-menu ini digunakan untuk mengambil data bibliografi dari luar SLiMS dalam format csv (atau dari pangkalan data SLiMS dalam bentuk .csv).
+Untuk petunjuk impor data, tim Pengembang SLiMS sudah membuat secara detail beberapa manual konversi dari aplikasi berikut:
+ Athenaeum; CDS/WIN/SIPISIS.  Manual-manual tersebut dapat diunduh di:
+ Manual migrasi data dari Athenaeum - https://goo.gl/pPUY9B Manual migrasi dari CDS/WIN/SIPISIS - https://goo.gl/D8VLFP  Untuk konversi dari Athenaeum, tim Pengembang SLiMS pernah membuat alat migrasi secara daring yang dapat diakses pada laman:</description>
+    </item>
+    
+    <item>
+      <title>2.10 Sub-menu Data Export</title>
+      <link>/bibliografi/2.10-sub-menu-data-export/</link>
+      <pubDate>Thu, 25 Oct 2018 21:00:36 +0700</pubDate>
+      
+      <guid>/bibliografi/2.10-sub-menu-data-export/</guid>
+      <description>2.10 Sub-menu Data Export Sub-menu ini digunakan untuk mengambil data bibliografi dalam aplikasi SLiMS, untuk kemudian dapat dimasukkan dalam aplikasi SLiMS lainnya. Proses ini dapat dipahami sebagai pertukaran data.
+Proses ekspor akan menghasilkan berkas .csv. Format .csv apabila kita lihat isinya, secara berurutan berisi data sebagai berikut:
+ Title GMD Edition ISBN/ISSN Publisher Publishing Year Collation Series Title Call Number Language Publishing Place Classification Abstract/Notes Cover File Name, Attachment File Name Author Subjects Item Code  Contohnya adalah sebagai berikut:</description>
+    </item>
+    
+    <item>
+      <title>2.9 Sub-menu Catalog Printing</title>
+      <link>/bibliografi/2.9-sub-menu-catalog-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:59:00 +0700</pubDate>
+      
+      <guid>/bibliografi/2.9-sub-menu-catalog-printing/</guid>
+      <description>2.9 Sub-menu Catalog Printing Fitur ini dapat digunakan untuk mencetak kartu katalog. Cara mencetak hampir sama dengan cara mencetak barcode dan label buku. Hasil dari pencetakan adalah sebagaimana gambar dibawah ini:</description>
+    </item>
+    
+    <item>
+      <title>2.8 Sub-menu MARC Export dan Import</title>
+      <link>/bibliografi/2.8-sub-menu-marc-export-dan-import/</link>
+      <pubDate>Thu, 25 Oct 2018 20:57:26 +0700</pubDate>
+      
+      <guid>/bibliografi/2.8-sub-menu-marc-export-dan-import/</guid>
+      <description>2.8 Sub-menu MARC Export dan Import Fitur ini digunakan untuk mengekspor data bibliografi dari SLiMS ke dalam format .mrc atau mengimpor data MARC baik itu berekstensi .mrc ataupun .xml. Sebelum menggunakan fitur ini, syaratnya pada peladen SLiMS telah terpasang aplikasi PEAR, FILE_MARC dan Structures_LinkedList. Pada peladen yang menggunakan sistem operasi GnU/linux (Ubuntu, misalnya), cara pemasangannya dapat dilihat pada blog ini:
+ https://goo.gl/2bI4tX https://goo.gl/dejszi  Jika sudah terinstall, maka yang tampil adalah:</description>
+    </item>
+    
+    <item>
+      <title>2.7 Sub-menu Item Barcodes Printing</title>
+      <link>/bibliografi/2.7-sub-menu-item-barcodes-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:55:43 +0700</pubDate>
+      
+      <guid>/bibliografi/2.7-sub-menu-item-barcodes-printing/</guid>
+      <description>2.7 Sub-menu Item Barcodes Printing Menu ini sebagai sarana mencetak barcode berdasar data nomor eksemplar yang sudah dimasukkan ke SLiMS. Berikut urutan mencetak barcode eksemplar menggunakan sub-menu Item Barcodes Printing:
+ Klik Item Barcode Printing, maka akan muncul tampilan sebagai berikut:   Pilih nomor eksemplar yang akan dicetak. Gunakan tombol Shift+klik check box untuk memilih lebih dari satu secara berurutan dengan cepat.  Catatan: sekali cetak maksimal 50 data.</description>
+    </item>
+    
+    <item>
+      <title>2.6 Sub-menu Labels Printing</title>
+      <link>/bibliografi/2.6-sub-menu-labels-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:53:52 +0700</pubDate>
+      
+      <guid>/bibliografi/2.6-sub-menu-labels-printing/</guid>
+      <description>2.6 Sub-menu Labels Printing Dengan menu ini kita dapat mencetak label koleksi berdasar data bibliografi yang sudah dimasukkan ke SLiMS. Berikut urutan mencetak label menggunakan sub-menu Labels Printing:
+ Klik Labels Printing, maka akan muncul tampilan sebagai berikut:   Pilih bibliografi yang akan dicetak labelnya. Gunakan tombol Shift+klik check box untuk memilih lebih dari satu data secara berurutan dengan cepat.   Catatan: sekali cetak maksimal 50 data. Dalam menu Labels Print ini sudah dimungkinkan untuk mencetak label lebih dari satu, tergantung pada berapa jumlah eksemplar koleksi.</description>
+    </item>
+    
+    <item>
+      <title>2.5.3.1 Konfigurasi P2P Service</title>
+      <link>/bibliografi/2.5.3.1-konfigurasi-p2p-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:40:16 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.3.1-konfigurasi-p2p-service/</guid>
+      <description>2.5.3.1 Konfigurasi P2P Service P2P dapat dikonfigurasi melalui perubahan pada berkas sysconfig.inc.php sebagaimana contoh berikut:
+Cari baris seperti di bawah ini:
+ $sysconf[&amp;lsquo;p2pserver&amp;rsquo;][1] = array(&amp;lsquo;uri&amp;rsquo; =&amp;gt; &amp;lsquo;http://127.0.0.1/senayan3-stable14&amp;rsquo;, &amp;lsquo;name&amp;rsquo; =&amp;gt; &amp;lsquo;SLiMS Library&amp;rsquo;);
+ Salin baris tersebut ke dalam berkas sysconfig.local.inc.php, kemudian sunting sesuai dengan alamat dan nama Perpustakaan yang dituju. Jika ada lebih dari satu alamat yang dituju, maka dapat ditambahkan baris di bawahnya, sebagaimana contoh berikut:
+ $sysconf[&amp;lsquo;p2pserver&amp;rsquo;][1] = array(&amp;lsquo;uri&amp;rsquo; =&amp;gt; &amp;lsquo;http://127.</description>
+    </item>
+    
+    <item>
+      <title>2.5.3 P2P Service</title>
+      <link>/bibliografi/2.5.3-p2p-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:36:50 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.3-p2p-service/</guid>
+      <description>2.5.3 P2P Service P2P Service merupakan fitur salin katalog yang dibuat mulai dari Senayan 3 Stable 14. Konsep dasar dari fitur ini adalah berbagi data bibliografi antar pengguna SLiMS. P2P Service memanfaatkan fasilitas xml yang ada di SLiMS untuk berbagi koleksi bibligrafi. Untuk menggunakannya, cukup dengan klik P2P Service, isikan kata kunci dan pilih lokasi/url/perpustakaan yang dituju untuk pencarian. Jika SLiMS menemukan koleksi yang dicari, maka akan ditampilkan.
+Pencarian pada P2P Service ini dapat menggunakan pencarian spesifik model Boolean.</description>
+    </item>
+    
+    <item>
+      <title>2.5.2 Z39.50 Service</title>
+      <link>/bibliografi/2.5.2-z39.50-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:33:15 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.2-z39.50-service/</guid>
+      <description>2.5.2 Z39.50 Service Merupakan fitur baru di SLiMS mulai stable-10, fitur ini memungkinkan perpustakaan pengguna SLiMS untuk mengambil koleksi dari berbagai perpustakaan. Secara baku Z39.50 disetel mengarah ke Library of Congress (http://loc.gov), namun dapat ditambahi sesuka kita. Pustakawan cukup memasukkan judul, pengarang atau ISBN/ISSN, kemudian SLiMS akan mengambil data. Jika hasilnya lebih dari satu, maka pustakawan dimungkinkan untuk memilih koleksi yang diinginkan kemudian klik pada tombol &amp;ldquo;Save.&amp;rdquo;
+Untuk efektifitas penggunaan Z39.</description>
+    </item>
+    
+    <item>
+      <title>2.5.1 Z39.50 SRU: Search/Retrieval via URL</title>
+      <link>/bibliografi/2.5.1-z39.50-sru-search-retrieval-via-url/</link>
+      <pubDate>Thu, 25 Oct 2018 19:54:27 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.1-z39.50-sru-search-retrieval-via-url/</guid>
+      <description>2.5.1 Z39.50 SRU: Search/Retrieval via URL Merupakan fitur yang digunakan untuk proses copy cataloging sebagaimana pada Z 39.50 Service. Perbedaan dari sisi pengguna, penggunaan SRU tidak mensyaratkan instalasi YAZ.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Sub-menu Copy Cataloging</title>
+      <link>/bibliografi/2.5-sub-menu-copy-cataloging/</link>
+      <pubDate>Thu, 25 Oct 2018 11:08:34 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5-sub-menu-copy-cataloging/</guid>
+      <description>2.5 Sub-menu Copy Cataloging Copy cataloging pada SLiMS mengoptimalkan 3 (tiga) layanan tukar menukar data. Z39.50 SRU dengan memanfaatkan xml yang berformat MODS, Z 39.50 yang memanfaatkan YAZ, serta P2P service yang memanfaatkan XML antar SLiMS.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Sub-menu Checkout Items</title>
+      <link>/bibliografi/2.4-sub-menu-checkout-items/</link>
+      <pubDate>Thu, 25 Oct 2018 11:06:03 +0700</pubDate>
+      
+      <guid>/bibliografi/2.4-sub-menu-checkout-items/</guid>
+      <description> 2.4 Sub-menu Checkout Items Sub-menu ini memberikan informasi tentang status eksemplar yang sedang dipinjam. Sub-menu ini juga dilengkapi dengan fasilitas pencarian dengan pendekatan nomor eksemplar dan judul bibliografi. Informasi yang ada dalam sub-menu ini adalah:
+ Item Code Title Collection Type Location Classification Last Updated  </description>
+    </item>
+    
+    <item>
+      <title>2.3 Sub menu Item List</title>
+      <link>/bibliografi/2.3-sub-menu-item-list/</link>
+      <pubDate>Thu, 25 Oct 2018 11:04:03 +0700</pubDate>
+      
+      <guid>/bibliografi/2.3-sub-menu-item-list/</guid>
+      <description>2.3 Sub-menu Item List Sub-menu ini digunakan untuk melihat data eksemplar dalam pangkalan data SLiMS. Informasi yang ada dalam sub-menu ini adalah:
+ Item Code Title Type Location Classification Last Update  Dengan sub-menu menu ini dapat pula dilakukan proses sunting dan hapus eksemplar. Berikut langkah untuk menyunting atau menghapus data eksemplar:
+ Cari eksemplar yang akan diubah/dihapus dengan mengetikkan judul atau kode eksemplar pada kolom &amp;ldquo;Search&amp;rdquo; kemudian klik &amp;ldquo;Search.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Sub Menu Add New Bibliography</title>
+      <link>/bibliografi/2.2-sub-menu-add-new-bibliography/</link>
+      <pubDate>Thu, 25 Oct 2018 10:32:13 +0700</pubDate>
+      
+      <guid>/bibliografi/2.2-sub-menu-add-new-bibliography/</guid>
+      <description>2.2 Sub-menu Add New Bibliography Sub-menu ini digunakan untuk menambah bibliografi baru, klik pada Add New Bibliography. Maka akan muncul layar seperti di bawah ini:
+Metadata yang harus kita isikan adalah:
+ Title: Judul koleksi. Masukkan judul dari bahan perpustakaan yang akan diolah. Author: Kepengarangan. Masukkan nama pengarang di sini. Statement of Responbility: Pernyataan tanggungjawab. Pada ruas ini, masukkan nama pengarang tanpa dibalik, apabila pada ruas Author nama pengarang ditulis terbalik (nama keluarga terlebih dahulu).</description>
+    </item>
+    
+    <item>
+      <title>2.1 Sub Menu Bibliographic List</title>
+      <link>/bibliografi/sub-menu-bibliographic-list/</link>
+      <pubDate>Thu, 25 Oct 2018 10:29:51 +0700</pubDate>
+      
+      <guid>/bibliografi/sub-menu-bibliographic-list/</guid>
+      <description>2.1 Sub-menu Bibliographic List Sub-menu ini digunakan untuk melihat data bibliografi yang sudah ada dalam pangkalan data SLiMS. Informasi yang dimunculkan dalam sub-menu ini adalah:
+ Title Author ISBN/ISSN Copies Last Update  Sub-menu ini memungkinkan kita untuk dapat mengurutkan daftar berdasar judul, ISSN/ISBN, copies (jumlah eksemplar), dan Last Update. Dengan sub-menu ini pula, bibliografi dapat dicari untuk disunting atau dihapus. Berikut langkah untuk menyunting atau menghapus bibliografi lewat menu &amp;ldquo;Bibliographic List&amp;rdquo;:</description>
+    </item>
+    
+  </channel>
+</rss>

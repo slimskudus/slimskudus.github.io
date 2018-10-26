@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 Serial Control on Manual SLiMS Kudus</title>
+    <link>/serial_control/</link>
+    <description>Recent content in 7 Serial Control on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 07:24:47 +0700</lastBuildDate>
+    
+	<atom:link href="/serial_control/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.1 Memulai mengisi kardeks</title>
+      <link>/serial_control/7.1-memulai-mengisi-kardeks/</link>
+      <pubDate>Fri, 26 Oct 2018 22:09:13 +0700</pubDate>
+      
+      <guid>/serial_control/7.1-memulai-mengisi-kardeks/</guid>
+      <description>7.1 Memulai mengisi kardeks Ketika serial/majalah yang dilanggan tiba diperpustakaan, buka daftar kardeks dengan mengklik link “View/Edit Cardex Detail”.
+Kardeks SLiMS menyediakan 4 kolom informasi:
+ Tanggal Perkiraan Kedatangan. Tanggal ini otomasis diisi pada saat inisiasi kardeks. Jumlah baris yang ditampilkan sesuai dengan jumlah eksemplar yang diisi pada saat inisiasi. Jika dibutuhkan, tanggal ini dapat diperbaiki dengan mengklik ikon kalender; Tanggal Diterima Perpustakaan. Ketika majalah diterima di perpustakaan isi kolom “_Date Received_” dengan tanggal terima majalah; Nomor Urut Edisi yang Diterima.</description>
+    </item>
+    
+  </channel>
+</rss>

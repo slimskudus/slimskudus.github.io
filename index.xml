@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manual SLiMS Kudus</title>
+    <link>/</link>
+    <description>Recent content on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2018 09:54:01 +0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>7.1 Memulai mengisi kardeks</title>
+      <link>/serial_control/7.1-memulai-mengisi-kardeks/</link>
+      <pubDate>Fri, 26 Oct 2018 22:09:13 +0700</pubDate>
+      
+      <guid>/serial_control/7.1-memulai-mengisi-kardeks/</guid>
+      <description>7.1 Memulai mengisi kardeks Ketika serial/majalah yang dilanggan tiba diperpustakaan, buka daftar kardeks dengan mengklik link “View/Edit Cardex Detail”.
+Kardeks SLiMS menyediakan 4 kolom informasi:
+ Tanggal Perkiraan Kedatangan. Tanggal ini otomasis diisi pada saat inisiasi kardeks. Jumlah baris yang ditampilkan sesuai dengan jumlah eksemplar yang diisi pada saat inisiasi. Jika dibutuhkan, tanggal ini dapat diperbaiki dengan mengklik ikon kalender; Tanggal Diterima Perpustakaan. Ketika majalah diterima di perpustakaan isi kolom “_Date Received_” dengan tanggal terima majalah; Nomor Urut Edisi yang Diterima.</description>
+    </item>
+    
+    <item>
+      <title>11.1 Mengamankan Visitor Counter</title>
+      <link>/visitor-counter/11.1-mengamankan-visitor-counter/</link>
+      <pubDate>Fri, 26 Oct 2018 22:06:14 +0700</pubDate>
+      
+      <guid>/visitor-counter/11.1-mengamankan-visitor-counter/</guid>
+      <description>11.1 Mengamankan Visitor Counter Untuk keamanan dan validitas proses absensi pengunjung, Visitor Counter ini dapat di seting hanya komputer dengan Internet Protokol tertentu saja yang dapat mengakses. Pengaturan ini terdapat dalam file visitor.inc.php yang ada dalam folder /senayan/lib/contents/visitor.inc.php. Scriptnya adalah sebagai berikut:
+$allowed_counter_ip = array(&amp;#39;127.0.0.1&amp;#39;); Pada script diatas, 127.0.0.1 merupakan IP address yang diijinkan untuk mengakses visitor counter. Jika ada lebih dari satu komputer maka IP Address komputer yang bersangkutan harus diisikan didalam script diatas.</description>
+    </item>
+    
+    <item>
+      <title>12.3 Modul Administrasi UCS</title>
+      <link>/ucs/12.3-modul-administrasi-ucs/</link>
+      <pubDate>Fri, 26 Oct 2018 21:37:48 +0700</pubDate>
+      
+      <guid>/ucs/12.3-modul-administrasi-ucs/</guid>
+      <description>12.3 Modul Administrasi UCS Modul adminitrasi UCS dapat diakses dengan menambahkan url /ucs/index.php?p=login. Standar untuk masuk pada modul ini adalah username admin dan password admin. Maka UCS akan menampilkan modul administrasinya sebagai berikut:
+Halaman admin ini digunakan untuk mengelola data yang sudah ada dalam server UCS. Modul dalam UCS ini adalah Bibliography, Master File dan System.
+12.3.1 Bibliography Bibliography ini digunakan untuk mengelola data bibliografi yang sudah diada di server UCS.</description>
+    </item>
+    
+    <item>
+      <title>12.1 Mengaktifkan UCS</title>
+      <link>/ucs/12.1-mengaktifkan-ucs/</link>
+      <pubDate>Fri, 26 Oct 2018 21:36:28 +0700</pubDate>
+      
+      <guid>/ucs/12.1-mengaktifkan-ucs/</guid>
+      <description>12.1 Mengaktifkan UCS Fitur UCS ada di bawah master senayan, pada senayan3-stable14 ada pada /senayan3-stable14/ucs. UCS menggunakan library Simbio yang ada di master Senayan, sehingga UCS versi 1.0 tidak bisa diinstall berbeda dari master senayan.
+Sedangkan sejak SLiMS 5 UCS adalah project terpisah. UCS versi 2.0 dapat diunduh di https://github.com/slims/ucs-2.0
+Untuk mengaktifkan fitur UCS pada Senayan, dapat dilakukan dengan langkah di bawah ini:
+12.1.1 Membuat database UCS UCS versi 1.</description>
+    </item>
+    
+    <item>
+      <title>10.12 Member Custom Field</title>
+      <link>/tips-n-trick/10.12-member-custom-field/</link>
+      <pubDate>Fri, 26 Oct 2018 20:45:58 +0700</pubDate>
+      
+      <guid>/tips-n-trick/10.12-member-custom-field/</guid>
+      <description>10.12 Member Custom Field Serupa dengan Biblio Custom, pada fitur ini pengguna senayan dapat menambahkan informasi (field) baru yang harus diisikan dalam informasi keanggotaan. Untuk menambahkan field baru, langkah-langkahnya adalah sebagai berikut:
+ Buka file member_custom_fields.inc.php yang terletak di folder /admin/modul/membership
+ Dalam file ini terdapat 5 custom field yang dapat digunakan. Ini code yang masih asli
+  $member_custom_fields = array( &amp;#39;customfield1&amp;#39; =&amp;gt; array( &amp;#39;dbfield&amp;#39; =&amp;gt; &amp;#39;customfield1&amp;#39;, // name of field in &amp;#39;biblio&amp;#39; table in database, make sure you already define it!</description>
+    </item>
+    
+    <item>
+      <title>10.11 Biblio Custom Field</title>
+      <link>/tips-n-trick/1.11-biblio-custom-field/</link>
+      <pubDate>Fri, 26 Oct 2018 20:35:01 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.11-biblio-custom-field/</guid>
+      <description>10.11 Biblio Custom Field Fitur ini digunakan untuk menambahkan Field baru pada Bibliografi, dimana field ini dibutuhkan oleh perpustakaan yang menggunakan Senayan namun belum tersedia dalam field standard SLiMS.
+Untuk menambahkan field baru dilakukan langkah sebagai berikut:
+ Buka file custom_fields.inc.php yang terletak pada folder admin/modul/bibliography
+ Dalam file ini tersedia lima (5) Custom Field yang dapat digunakan, Untuk mengaktifkan nya hapus tanda komentar. Tanda bintang dan garis miring */</description>
+    </item>
+    
+    <item>
+      <title>10.10 Menambah Server Z.39</title>
+      <link>/tips-n-trick/1.10-menambah-server-z.39.50/</link>
+      <pubDate>Fri, 26 Oct 2018 20:30:50 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.10-menambah-server-z.39.50/</guid>
+      <description>10.10 Menambah Server Z.39.50 Mulai Senayan3-stable15 (Matoa), pengguna SLiMS dimudahkan jika ingin menambahkan tujuan z.39.50 baru. Syarat penggunaan z39.50 adalah terhubung ke internet, dan port yang dibutuhkan terbuka. Sebagaimana diketahui, sebelumnya z39.50 di SLiMS hanya menuju ke Library of Congress Amerika. Bagaimana menambahkannya?
+ Buka situs http://irspy.indexdata.com/, pada situs ini anda dapat menemukan berbagai alamat perpustakaan yang menyediakan server z39.50 untuk saling menukar data. Alamat tersebut dikumpulkan berdasar abjad. Alamat yang akan digunakan adalah perpaduan antara Host, Port dan DB.</description>
+    </item>
+    
+    <item>
+      <title>10.9 Menambah Captcha</title>
+      <link>/tips-n-trick/1.9-menambah-captcha/</link>
+      <pubDate>Fri, 26 Oct 2018 20:24:17 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.9-menambah-captcha/</guid>
+      <description>10.9 Menambah Captcha Mulai Senayan3-Stable15 (Matoa), ada penambahan fasilitas pengamanan login pada login pustakawan dan member, yaitu penambahan captcha
+Captcha ini ada dua, untuk Librarian Login dan untuk Member Login. Untuk mengaktifkan captcha tersebut, perlu diseting pada file sysconfig.inc.php. ubah false menjadi true
+/** * Captcha Settings */ // Captcha settings for Senayan Management Console (aka Librarian Login) $sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;enable&amp;#39;] = false; // value can be &amp;#39;true&amp;#39; or &amp;#39;false&amp;#39; $sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;type&amp;#39;] = &amp;#39;recaptcha&amp;#39;; // value can be &amp;#39;recaptcha&amp;#39; (at this time) if ($sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;enable&amp;#39;]) { include_once LIB.</description>
+    </item>
+    
+    <item>
+      <title>10.8 Mensetting Email server</title>
+      <link>/tips-n-trick/1.8-mensetting-email-server/</link>
+      <pubDate>Fri, 26 Oct 2018 20:15:22 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.8-mensetting-email-server/</guid>
+      <description>10.8 Mensetting Email server Sejak Senayan3-stable15 terdapat fitur baru untuk mengirimkan email peringatan/tagihan pada peminjam yang terlambat mengembalikan. Penggunaan fitur ini membutuhkan akun Google/Gmail, karena akan menggunakan fasilitas smpt dari gmail. Seting yang dibutuhkan adalah sebagaimana gambar dibawah ini:
+Seting diatas ada dalam file sysconfig.inc.php. Atau jika anda mau, anda bisa mengcopy setingan Mailing Setting ini ke sysconfig.local.inc.php.
+Bagaimana penggunaannya? Penggunaan fitur email ini ada pada menu Sirkulasi. Ketika memulai sirkulasi (ID anggota dimasukkan), jika anggota tersebut mempunyai pinjaman yang terlambat, maka tampilan yang muncul adalah sebagai berikut:</description>
+    </item>
+    
+    <item>
+      <title>10.7 Menambah jenis ekstensi file yang dapat diunggah pada lampiran bibliografi</title>
+      <link>/tips-n-trick/1.7-menambah-jenis-ekstensi-file/</link>
+      <pubDate>Fri, 26 Oct 2018 20:05:18 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.7-menambah-jenis-ekstensi-file/</guid>
+      <description>10.7 Menambah jenis ekstensi file yang dapat diunggah pada lampiran bibliografi Ketika mengisi data bibliografi, akan ditemukan fasilitas untuk mengunggah file gambar dan file attachment (lampiran). File gambar ada bermacam-macam, demikian pula file dokumen yang akan diunggah.
+JIka anda mengunggah file dan gagal, salah satu kemungkinan (ingat hanya salah satu kemungkinan) adalah ekstensi dokumen/file anda tidak diijinkan diunggah. Misalnya, file berekstensi .WAV. Maka anda bisa melakukan penambahan ekstensi ini agar dapat diunggah.</description>
+    </item>
+    
+    <item>
+      <title>10.8 Merubah Template OPAC</title>
+      <link>/tips-n-trick/1.6-merubah-template-opac/</link>
+      <pubDate>Fri, 26 Oct 2018 20:03:12 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.6-merubah-template-opac/</guid>
+      <description>10.8 Merubah Template OPAC Untuk mendapatkan tampilan yang berbeda dari tampilan standar OPAC pengguna dapat melakukan perubahan pada template yang telah disediakan di dalam distribusi SLiMS. Berikut adalah tampilan standar SLiMS
+Isi dari tampilan di atas dapat dilihat di dalam folder /template/default.
+Gambar-gambar yang berada pada template yang ditampilkan di atas, semuanya terdapat di dalam folder /template/default/img. Semua komponen gambar yang ada seperti logo, gambar latar tinggal diganti menggunakan logo dan gambar latar yang Anda inginkan.</description>
+    </item>
+    
+    <item>
+      <title>10.5 Setting Barcode</title>
+      <link>/tips-n-trick/1.5-setting-barcode/</link>
+      <pubDate>Fri, 26 Oct 2018 20:02:26 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.5-setting-barcode/</guid>
+      <description>10.5 Setting Barcode Untuk mendapatkan hasil pencetakan barcode yang bagus, minimal karakter barcode adalah 6, yang bisa terdiri dari angka atau huruf. Hindari *&amp;amp;()%$#@!, kecuali (-).
+Beberapa contoh pencetakan barcode:</description>
+    </item>
+    
+    <item>
+      <title>10.4 Mengubah Membuat bahasa Pengantar baru</title>
+      <link>/tips-n-trick/1.4-mengubah-membuat-bahasa-pengantar-baru/</link>
+      <pubDate>Fri, 26 Oct 2018 16:59:17 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.4-mengubah-membuat-bahasa-pengantar-baru/</guid>
+      <description>10.4 Mengubah/Membuat bahasa Pengantar baru Tutorial ini ditulis pada saat SLiMS bernama senayan. Sejak Senayan3-stable11, penambahan bahasa pengantar mulai menggunakan fungsi gettext dalam PHP untuk mengganti nilai constant dalam file bahasa sebelumnya (misalnya indonesia.lang.inc.php atau english.lang.inc.php). Kini Default Application Language, Senayan telah menyediakan tiga (3) bahasa yaitu bahasa Indonesia, bahasa Inggris dan bahasa Jerman. untuk bahasa Inggris.
+Petunjuk berikut ini hanya memberikan pengantar kilat untuk menambahkan terjemahan bahasa di Senayan.</description>
+    </item>
+    
+    <item>
+      <title>10.3 Tutorial Upgrade</title>
+      <link>/tips-n-trick/1.3-tutorial-upgrade-aplikasi-perpustakaan-senayan/</link>
+      <pubDate>Fri, 26 Oct 2018 16:46:46 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.3-tutorial-upgrade-aplikasi-perpustakaan-senayan/</guid>
+      <description>10.3 Tutorial Upgrade Aplikasi Perpustakaan SLiMS Pada kali ini, tim SLiMS Developer Community akan memberikan tips dan trik bagaimana melakukan upgrade penggunaan SLiMS dari versi lama hingga versi terkahir. Perlu diketahui SLiMS dirilis ke publik dan diberi nama code nama nama tumbuhan di Indonesia. Hingga saat ini SLiMS selalu terbaharui di Github. Banyak sekali perbaikan perbaikan bugs serta penambahan fitur dan modul di saat pertama kali rilis hingga saat ini.</description>
+    </item>
+    
+    <item>
+      <title>10.2 Pencarian di OPAC dengan kata kunci minimal 3 huruf</title>
+      <link>/tips-n-trick/1.2-pencarian-di-opac-dengan-kata-kunci-minimal-3-huruf/</link>
+      <pubDate>Fri, 26 Oct 2018 16:38:29 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.2-pencarian-di-opac-dengan-kata-kunci-minimal-3-huruf/</guid>
+      <description>10.2 Pencarian di OPAC dengan kata kunci minimal 3 huruf  Buka file my.ini yang terletak di /mysql/my.ini Pada baris 43 tuliskan script berikut:  ft_min_word_len=3   Kemudian simpan dan restart server mysql.
+ Bukalah database SLiMS dengan phpmyadmin
+  phpmyadmin-slims.jpg
+ Klik tabel biblio, kemudian lihat bagian Indexes pada bagian bawah. Anda akan menemukan keyname title_ft dengan field title. Hapus baris tersebut dengan klik X.  phpmyadmin-slims-title.</description>
+    </item>
+    
+    <item>
+      <title>10.1 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman</title>
+      <link>/tips-n-trick/1.1-pengaturan-ukuran-barcode-label-kartu-anggota-dan-nota-peminjaman/</link>
+      <pubDate>Fri, 26 Oct 2018 16:29:47 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.1-pengaturan-ukuran-barcode-label-kartu-anggota-dan-nota-peminjaman/</guid>
+      <description>10.1 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman Setting ukuran barcode dan label dapat dilakukan dengan melakukan editing file printed_settings.inc.php yang terletak di /senayan3-stable7/admin/admin_template/.
+Dalam file ini akan didapatkan baris-baris kode sebagai berikut:
+// label print settings /* measurement in cm */ $page_width = 50; $page_height = 30; $page_margin = 0.2; $items_per_row = 3; $items_margin = 0.05; $box_width = 8; $box_height = 3.3; $include_header_text = 1; // change to 0 if dont want to use header in each label $header_text = &amp;#39;&amp;#39;; // keep empty if you want to use Library Name as a header text // item barcode print settings /* measurement in cm */ $barcode_page_width = 50; $barcode_page_height = 30; $barcode_page_margin = 0.</description>
+    </item>
+    
+    <item>
+      <title>0.2 Menu pada Tampilan OPAC SLiMS</title>
+      <link>/opac/0.2-menu-tampilan-opac-slims/</link>
+      <pubDate>Fri, 26 Oct 2018 16:24:07 +0700</pubDate>
+      
+      <guid>/opac/0.2-menu-tampilan-opac-slims/</guid>
+      <description>0.2 Menu pada Tampilan OPAC SLiMS Seperti yang telah disebutkan pada bagian sebelumnya, berikut adalah tampilan menu-menu yang dapat diakses oleh pengguna/pemustaka.
+0.2.1 Menu-menu pada OPAC Penjelasan: Menu-menu tersebut dapat diakses dengan klik pada gambar garis bertumpuk 3 (tiga) pada bagian kanan atas halaman OPAC. Apabila kita klik pada menu Home, maka kita akan dibawa ke halaman OPAC.
+0.2.2 Tampilan laman Library News Penjelasan:
+Laman Library News ditujukan sebagai laman untuk penyampaian berita kegiatan yang dilakukan oleh Perpustakaan.</description>
+    </item>
+    
+    <item>
+      <title>0.1 Custom Field Record List</title>
+      <link>/opac/0.1-custom-field-record-list/</link>
+      <pubDate>Fri, 26 Oct 2018 16:15:44 +0700</pubDate>
+      
+      <guid>/opac/0.1-custom-field-record-list/</guid>
+      <description>0.1 Custom Field Record List Pada Aplikasi Senayan stable 8 ini, ditambahi dengan fasilitas penampilan field record secara cuztomise. Penambahan ini dapat dilakukan dengan mengedit file custom_frontpage_record.inc.php yang terdapat pada folder template OPAC. Jadi jika anda ingin mengubah tampilan yang disediakan, dan anda menggunakan template default, anda harus mengedit file custom_frontpage_record.inc.php yang ada di template/default/. Isi dari file ini adalah:
+ // change &amp;ldquo;0&amp;rdquo; value to &amp;ldquo;1&amp;rdquo; to enable field</description>
+    </item>
+    
+    <item>
+      <title>9.21 Sub-menu Orphaned Place</title>
+      <link>/masterfile/9.21-sub-menu-orphaned-place/</link>
+      <pubDate>Fri, 26 Oct 2018 15:21:00 +0700</pubDate>
+      
+      <guid>/masterfile/9.21-sub-menu-orphaned-place/</guid>
+      <description>9.21 Sub-menu Orphaned Place Sub-menu ini digunakan untuk menapis tempat/kota terbit yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Place, akan muncul daftar tempat/kota terbit yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.
+CATATAN:
+ORPHANED AUTHOR, ORPHANED SUBJECT, ORPHANED PUBLISHER, ORPHANED PLACE adalah data atau list mana saja yang sudah tidak terpakai dikoleksi kita (data bibligrafi sudah di hapus, salah ketik, atau sudah tidak pernah dipakai).</description>
+    </item>
+    
+    <item>
+      <title>9.20 Sub-menu Orphaned Publisher</title>
+      <link>/masterfile/9.20-sub-menu-orphaned-publisher/</link>
+      <pubDate>Fri, 26 Oct 2018 15:20:28 +0700</pubDate>
+      
+      <guid>/masterfile/9.20-sub-menu-orphaned-publisher/</guid>
+      <description>9.20 Sub-menu Orphaned Publisher Sub-menu ini digunakan untuk menapis nama penerbit yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Publisher, akan muncul daftar nama penerbit yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.19 Sub-menu Orphaned Subject</title>
+      <link>/masterfile/9.19-sub-menu-orphaned-subject/</link>
+      <pubDate>Fri, 26 Oct 2018 15:19:51 +0700</pubDate>
+      
+      <guid>/masterfile/9.19-sub-menu-orphaned-subject/</guid>
+      <description>9.19 Sub-menu Orphaned Subject Sub-menu ini digunakan untuk menapis subyek yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Subject, akan muncul daftar subyek yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.18 Sub-menu Orphaned Author</title>
+      <link>/masterfile/9.18-sub-menu-orphaned-author/</link>
+      <pubDate>Fri, 26 Oct 2018 15:19:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.18-sub-menu-orphaned-author/</guid>
+      <description>9.18 Sub-menu Orphaned Author Sub-menu ini digunakan untuk menapis pengarang/author yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Author, akan muncul daftar pengarang yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.17 Sub-menu Item Code Pattern</title>
+      <link>/masterfile/9.17-sub-menu-item-code-pattern/</link>
+      <pubDate>Fri, 26 Oct 2018 15:18:17 +0700</pubDate>
+      
+      <guid>/masterfile/9.17-sub-menu-item-code-pattern/</guid>
+      <description>9.17 Sub-menu Item Code Pattern Merupakan fitur baru yang dikembangkan di SLiMS 8 Akasia. Item Code Pattern merupakan generator nomor eksemplar sehingga ketika pustakawan melakukan pengolah bahan perpustakaan tidak perlu memasukkan nomor eksemplar (lihat pada menu Bibliography) secara manual dan ketika pengolahan bahan perpustakaan diolah oleh lebih dari satu orang, tidak perlu ada koordinasi penggunaan nomor eksemplar. Dengan mendefinisikan pola kode eksemplar pada sub-menu ini, maka SLiMS akan otomatis membuat nomor eksemplar dengan cukup memasukkan jumlah eksemplar yang diolah.</description>
+    </item>
+    
+    <item>
+      <title>9.16 Sub-menu Cataloging Servers</title>
+      <link>/masterfile/9.16-sub-menu-cataloging-servers/</link>
+      <pubDate>Fri, 26 Oct 2018 15:17:42 +0700</pubDate>
+      
+      <guid>/masterfile/9.16-sub-menu-cataloging-servers/</guid>
+      <description>9.16 Sub-menu Cataloging Servers Sub-menu ini berfungsi untuk menambahkan titik peladen yang hendak dijadikan sumber copycatalog di Modul Bibliography (Sub-menu Z3950 SRU, Z3950 Service, dan P2P). Berikut ini langkah-langkah untuk memanfaatkan sub-menu ini:
+ Klik menu Master File; Klik sub-menu Cataloging Servers; Klik Add New Server; Isi kolom Server Name, URI, dan Server Type; Klik Save.  Hasilnya dapat kita lihat pada menu Bibliography bagian copycatalog (Z39.50 atau P2P).</description>
+    </item>
+    
+    <item>
+      <title>9.15 Sub-menu Frequency</title>
+      <link>/masterfile/9.15-sub-menu-frequency/</link>
+      <pubDate>Fri, 26 Oct 2018 15:17:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.15-sub-menu-frequency/</guid>
+      <description>9.15 Sub-menu Frequency Sub-menu ini diisi dengan kala/frekuensi terbit terbitan berseri.</description>
+    </item>
+    
+    <item>
+      <title>9.14 Sub-menu Label</title>
+      <link>/masterfile/9.14-sub-menu-label/</link>
+      <pubDate>Fri, 26 Oct 2018 15:16:34 +0700</pubDate>
+      
+      <guid>/masterfile/9.14-sub-menu-label/</guid>
+      <description>9.14 Sub-menu Label Sub-menu ini berfungsi untuk memberikan informasi khusus tentang bibliografi. Label dapat didefinisikan pada menu Master File. Secara baku, SLiMS mempunyai tiga label: New Title, Favorite Title, dan Multimedia.</description>
+    </item>
+    
+    <item>
+      <title>9.13 Sub-menu Doc. Language</title>
+      <link>/masterfile/9.13-sub-menu-doc.language/</link>
+      <pubDate>Fri, 26 Oct 2018 15:14:59 +0700</pubDate>
+      
+      <guid>/masterfile/9.13-sub-menu-doc.language/</guid>
+      <description>9.13 Sub-menu Doc. Language Sub-menu ini diisikan dengan bahasa yang digunakan oleh dokumen. Misal: Bahasa Indonesia, Bahasa Inggris, Bahasa Perancis, Bahasa Jawa dll. Sub-menu ini memiliki beberapa fitur seperti:
+ Language List, untuk melihat daftar bahasa. Daftar bahasa ini dapat diurutkan berdasarkan Language dan Last Update; Add New Language, untuk menambahkan bahasa baru; Delete, untuk menghapus bahasa yang sudah ada di dalam daftar; Edit, untuk mengubah bahasa yang sudah ada di dalam daftar; Search, untuk mencari bahasa yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.12 Sub-menu Collection Type</title>
+      <link>/masterfile/9.12-sub-menu-collection-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:14:19 +0700</pubDate>
+      
+      <guid>/masterfile/9.12-sub-menu-collection-type/</guid>
+      <description>9.12 Sub-menu Collection Type Sub-menu ini diisikan dengan tipe koleksi yang dimiliki perpustakaan, misal: Textbook, Reference, Fiction. Sub-menu ini memiliki beberapa fitur seperti:
+ Collection Type List, untuk melihat daftar tipe koleksi. Daftar tipe koleksi ini dapat diurutkan berdasarkan Collection Type dan Last Update; Add New Collection Type, untuk menambahkan tipe koleksi baru; Delete, untuk menghapus tipe koleksi yang sudah ada di dalam daftar; Edit, untuk mengubah tipe koleksi yang sudah ada di dalam daftar; Search, untuk mencari tipe koleksi yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.11 Sub-menu Item Status</title>
+      <link>/masterfile/9.11-sub-menu-item-status/</link>
+      <pubDate>Fri, 26 Oct 2018 15:13:26 +0700</pubDate>
+      
+      <guid>/masterfile/9.11-sub-menu-item-status/</guid>
+      <description> 9.11 Sub-menu Item Status Sub-menu ini diisikan dengan status eksemplar (Repair, On Loan, Reserved). Pada Item Status ini diisikan:
+ Item Status Code; Item Status Name; serta Rules.  Ada dua pilihan dalam Rules:
+ No Loan Transaction, eksemplar tidak bisa dipinjam, misal: koleksi digital; dan Skipped by Stock Take, tidak diproses dalam Stock Take.  </description>
+    </item>
+    
+    <item>
+      <title>9.10 Sub-menu Place</title>
+      <link>/masterfile/9.10-sub-menu-place/</link>
+      <pubDate>Fri, 26 Oct 2018 15:12:39 +0700</pubDate>
+      
+      <guid>/masterfile/9.10-sub-menu-place/</guid>
+      <description>9.10 Sub-menu Place Sub-menu ini diisikan dengan kota/tempat terbit. Sub-menu ini memiliki beberapa fitur seperti:
+ Place List untuk melihat daftar kota atau tempat terbit. Daftar tempat ini dapat diurutkan berdasarkan Place Name dan Last Update; Add New Place untuk menambahkan nama kota/tempat baru; Delete untuk menghapus nama kota/tempat yang sudah ada di dalam daftar; Edit untuk mengubah nama kota/tempat yang sudah ada di dalam daftar; Search untuk mencari nama kota/tempat yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.9 Sub-menu Location</title>
+      <link>/masterfile/9.9-sub-menu-location/</link>
+      <pubDate>Fri, 26 Oct 2018 15:12:04 +0700</pubDate>
+      
+      <guid>/masterfile/9.9-sub-menu-location/</guid>
+      <description>9.9 Sub-menu Location Sub-menu ini diisikan kode lokasi dan nama lokasi penempatan koleksi. Sub-menu ini bermanfaat untuk perpustakaan yang memiliki beberapa ruangan atau gedung perpustakaan yang terpisah.</description>
+    </item>
+    
+    <item>
+      <title>9.8 Sub-menu Subject</title>
+      <link>/masterfile/9.8-sub-menu-subject/</link>
+      <pubDate>Fri, 26 Oct 2018 15:11:22 +0700</pubDate>
+      
+      <guid>/masterfile/9.8-sub-menu-subject/</guid>
+      <description>9.8 Sub-menu Subject Sub-menu ini diisikan dengan topik/subyek dari data koleksi yang kita masukkan. Sub-menu ini memiliki fitur yang berguna untuk kosa kata terkendali (vocabulary control). Menu ini diisi berdasarkan sebuah daftar bahasa indeks seperti Daftar Tajuk Subjek Perpusnas, Tesaurus Bidang Hukum, atau Library of Congress Subject Headings.
+Cara pemanfaatan menu ini dapat dipelajari lebih lanjut melalui slide presentasi yang ada di http://www.pdii.lipi.go.id/read/data/2016/08/Sis3\_Danang\_2016.pdf atau artikel yang ada pada halaman 215 di prosiding berikut ini https://drive.</description>
+    </item>
+    
+    <item>
+      <title>9.7 Sub-menu Author</title>
+      <link>/masterfile/9.7-sub-menu-author/</link>
+      <pubDate>Fri, 26 Oct 2018 15:09:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.7-sub-menu-author/</guid>
+      <description>9.7 Sub-menu Author Sub-menu ini diisikan dengan nama pengarang dan jenis pengarang (pribadi atau institusi). Sub-menu ini memiliki beberapa fitur seperti:
+ Author List untuk melihat daftar pengarang. Daftar pengarang ini dapat diurutkan berdasarkan Author Name, Author Year, Author type, Authority Files, dan Last Update; Add New Author untuk menambahkan nama pengarang baru; Delete untuk menghapus nama pengarang yang sudah ada di dalam daftar; Edit untuk mengubah nama pengarang yang sudah ada di dalam daftar; Search untuk mencari nama pengarang yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.6 Sub-menu Supplier</title>
+      <link>/masterfile/9.6-sub-menu-supplier/</link>
+      <pubDate>Fri, 26 Oct 2018 15:08:26 +0700</pubDate>
+      
+      <guid>/masterfile/9.6-sub-menu-supplier/</guid>
+      <description>9.6 Sub-menu Supplier Menu ini merupakan data master dari supplier atau agen yang menjadi rekanan perpustakaan dalam mendapatkan koleksi. Data supplier perlu diisikan di sini terlebih dahulu untuk dapat digunakan pada halaman kerja penambahan eksemplar. Berikut ini langkah-langkahnya:
+ Klik Master File; Klik Supplier; Klik Add New Supllier; Isi kolom dan Save.  Apabila data agen sudah kita masukkan ke dalam SLiMS, kita dapat menggunakannya saat melakukan penambahan eksemplar buku (Add New Item).</description>
+    </item>
+    
+    <item>
+      <title>9.5 Sub-menu Publisher</title>
+      <link>/masterfile/9.5-sub-menu-publisher/</link>
+      <pubDate>Fri, 26 Oct 2018 15:07:42 +0700</pubDate>
+      
+      <guid>/masterfile/9.5-sub-menu-publisher/</guid>
+      <description>9.5 Sub-menu Publisher Sub-menu ini diisikan dengan nama penerbit. Sub-menu ini memiliki beberapa fitur seperti:
+ Publisher List untuk melihat daftar penerbit-penerbit. Daftar penerbit ini dapat diurutkan berdasarkan Publisher Name dan Last Update; Add New Publisher untuk menambahkan nama penerbit baru; Delete untuk menghapus nama penerbit yang sudah ada di dalam daftar penerbit; Edit untuk mengubah nama penerbit yang sudah ada di dalam daftar penerbit; Search untuk mencari nama penerbit yang ada di dalam daftar penerbit.</description>
+    </item>
+    
+    <item>
+      <title>9.4 Sub-menu Carrier Type</title>
+      <link>/masterfile/9.4-sub-menu-carrier-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:07:11 +0700</pubDate>
+      
+      <guid>/masterfile/9.4-sub-menu-carrier-type/</guid>
+      <description>9.4 Sub-menu Carrier Type Sub-menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Sub-menu ini diisikan dengan tipe pembawa yang merujuk pada Resource Description Access (RDA). Sub-menu ini memiliki fitur Carrier Type List, Add New Carrier Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.3 Sub-menu Media Type</title>
+      <link>/masterfile/9.3-sub-menu-media-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:05:01 +0700</pubDate>
+      
+      <guid>/masterfile/9.3-sub-menu-media-type/</guid>
+      <description>9.3 Sub-menu Media Type Sub-menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Sub-menu ini diisikan dengan tipe media yang merujuk pada Resource Description Access (RDA). sub-menu ini memiliki fitur Media Type List, Add New Media Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.2 Sub-menu Content Type</title>
+      <link>/masterfile/9.2-sub-menu-content-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:04:12 +0700</pubDate>
+      
+      <guid>/masterfile/9.2-sub-menu-content-type/</guid>
+      <description>9.2 Sub-menu Content Type Menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Menu ini diisikan dengan tipe isi yang merujuk pada Resource Description Access (RDA). Menu ini memiliki fitur Content Type List, Add New Content Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.1 Sub-menu GMD</title>
+      <link>/masterfile/9.1-sub-menu-gmd/</link>
+      <pubDate>Fri, 26 Oct 2018 15:02:29 +0700</pubDate>
+      
+      <guid>/masterfile/9.1-sub-menu-gmd/</guid>
+      <description>9.1 Sub-menu GMD (General Material Designation) Bentuk fisik koleksi atau media fisik tempat penyimpanan informasi. Daftar dan tata cara penggunaan GMD merujuk atau dapat kita lihat pada Anglo American Cataloguing Rules (AACR). Kita dapat melihat daftar dari GMD yang ada dengan mengklik GMD List, Menambahkan GMD dengan mengklik Add New GMD, menghapus GMD dalam daftar, dan melakukan perubahan/sunting GMD dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>1.3 Install SLiMS Di Mac</title>
+      <link>/install/1.3-install-slims-di-mac/</link>
+      <pubDate>Fri, 26 Oct 2018 13:28:11 +0700</pubDate>
+      
+      <guid>/install/1.3-install-slims-di-mac/</guid>
+      <description>1.3 Install SLiMS Di Mac  Unduh (download) paket XAMPP untuk Mac di laman (website) Apachefriends. Inget ya, yang versi Mac,   Download file Universal binary dalam format .dmg yang disediakan. Jangan lupa download juga paket development-nya agar kita bisa meng-compile library YAZ dan PHP-YAZ nanti.
+ Setelah selesai di-download, klik dua kali pada file image .dmg XAMPP untuk membuka installer-nya. Drag folder XAMPP ke folder Applications untuk menginstall.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Install SLiMS di Linux</title>
+      <link>/install/1.2-install-slims-di-linux/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:59 +0700</pubDate>
+      
+      <guid>/install/1.2-install-slims-di-linux/</guid>
+      <description>1.2 Instalasi SLiMS di Linux Agar SLiMS dapat dipasang, pastikan web server (peladen web, misalnya Apache web server), MySQL (aplikasi pangkalan data), dan PHP (bahasa pemrograman) telah terpasang pada perangkat keras peladen dan berjalan dengan baik. Akan lebih membantu apabila aplikasi PHPMyAdmin atau Adminer juga dipasang untuk membantu dalam penyetelan pangkalan data melalui antar muka web. Jika SLiMS digunakan di internet (publik), disarankan untuk meningkatkan keamanan dengan menambahkan firewall di sisi TCP/IP (layer 3 dan 4 dari OSI layer), di sisi aplikasi (contoh modsecurity) dan di sisi database (contoh greensql).</description>
+    </item>
+    
+    <item>
+      <title>1.1.1 Install Pslims</title>
+      <link>/install/1.1.1-install-pslims/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:42 +0700</pubDate>
+      
+      <guid>/install/1.1.1-install-pslims/</guid>
+      <description>1.1.1 Instalasi SLiMS Portabel (PSLiMS) di MS-Windows Portable SLiMS for Windows (PSLiMS) adalah paket perangkat lunak yang terdiri dari aplikasi SLiMS, Apache Web Server, PHP Scripting engine, MySQL Database Server dan PHPMyAdmin, di dalamnya, library YAZ yang digunakan untuk mengaktifkan fitur copy cataloging menggunakan z39.50 sudah terinstall. PSLiMS ditujukan agar orang mudah melakukan instalasi SLiMS tanpa dibuat bingung cara memasang perangkat lunak lain (web server, mysql, php, YAZ) terlebih dahulu.</description>
+    </item>
+    
+    <item>
+      <title>1.1 Install SLiMS di Windows</title>
+      <link>/install/1.1-install-slims-di-windows/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:41 +0700</pubDate>
+      
+      <guid>/install/1.1-install-slims-di-windows/</guid>
+      <description>1.1 Sistem Operasi MS-Windows Bagi pengguna sistem operasi ini, penggunaan Apache, PHP, MySQL sudah tersedia dalam bentuk paket. Banyak paket yang bisa dimanfaatkan. Salah satu yang terkenal adalah XAMPP oleh Apache Friends. Aplikasi ini dapat diunduh di http://apachefriends.org.
+Setelah memasang XAMPP, untuk bisa memulai layanan peladen web dan pangkalan data dengan memilih XAMPP control panel dari menu aplikasi.
+Jika Anda menggunakan XAMPP, maka direktori root web berada di xampp/htdocs. Untuk memulai pemasangan SLiMS menggunakan kode sumber, salinkan berkas kode sumber SLiMS, seperti yang sudah dituliskan pada bab sebelumnya, ke dalam direktori tersebut.</description>
+    </item>
+    
+    <item>
+      <title>8.14 Sub-menu Backup Database</title>
+      <link>/system/8.14-sub-menu-backup-database/</link>
+      <pubDate>Fri, 26 Oct 2018 07:57:47 +0700</pubDate>
+      
+      <guid>/system/8.14-sub-menu-backup-database/</guid>
+      <description>8.14 Sub-menu Backup Database Merupakan fasilitas untuk membuat cadangan (backup) pangkalan data SLiMS. Untuk dapat membuat cadangan, perlu terlebih dahulu didefinisikan letak/jalur aplikasi mysqldump. Caranya adalah dengan mengedit berkas sysconfig.inc.php. Cari baris yang tertulis:
+ $sysconf [&amp;lsquo;mysqldump&amp;rsquo;] = &amp;lsquo;/usr/bin/mysqldump&amp;rsquo;;
+ gantilah /usr/bin/mysqldump sesuai dengan letak mysqldump di komputer server (peladen). Setelah jalur aplikasi mysqldump tepat, klik Start New Backup maka SLiMS akan membuat cadangan secara otomatis.
+Format berkas cadangan yang dibuat Senayan adalan .</description>
+    </item>
+    
+    <item>
+      <title>8.13 Sub-menu System Log</title>
+      <link>/system/8.13-sub-menu-system-log/</link>
+      <pubDate>Fri, 26 Oct 2018 07:57:12 +0700</pubDate>
+      
+      <guid>/system/8.13-sub-menu-system-log/</guid>
+      <description>8.13 Sub-menu System Log Merupakan sub-menu untuk melihat rekaman proses yang dilakukan oleh SLiMS. Rekaman yang muncul adalah Time (waktu), Location (lokasi -nama modul-), dan Message (keterangan). Message yang muncul dalam System Logs ini meliputi siapa (Pengguna Biasa/Administrator), melakukan apa, dan dari mana.
+Ketika aplikasi SLiMS ini sudah lama digunakan, maka secara otomatis catatan proses kerja SLiMS juga akan bertambah banyak. Oleh karena itu, dalam sub-menu ini, diberikan fasilitas SAVE LOGS TO FILES.</description>
+    </item>
+    
+    <item>
+      <title>8.12 Sub-menu Barcode Generator</title>
+      <link>/system/8.12-sub-menu-barcode-generator/</link>
+      <pubDate>Fri, 26 Oct 2018 07:55:50 +0700</pubDate>
+      
+      <guid>/system/8.12-sub-menu-barcode-generator/</guid>
+      <description>8.12 Sub-menu Barcode Generator Merupakan fasilitas untuk membuat barkod (kode batang).
+Masukkan angka, huruf, dan atau kombinasi keduanya, yang akan dibuat menjadi barkod pada kolom-kolom yang ada di layar. Tentukan ukuran barkod (Small, Medium, atau Big),
+kemudian klik tombol Generate Barcode. Maka barkod dapat dilihat dalam bentuk .html dan dapat dicetak. Berikut contoh hasil barcode generator</description>
+    </item>
+    
+    <item>
+      <title>8.11 Sub-menu Holiday Setting</title>
+      <link>/system/8.11-sub-menu-holiday-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:54:56 +0700</pubDate>
+      
+      <guid>/system/8.11-sub-menu-holiday-setting/</guid>
+      <description>8.11 Sub-menu Holiday Setting Merupakan fasilitas untuk menentukan hari-hari libur dimana perpustakaan tidak membuka pelayanan. Pendefinisian hari libur ini akan perpengaruh pada perhitungan hari kerja/buka aktif perpustakaan dan perhitungan denda. Ada dua jenis hari libur yang dapat didefinisikan dalam menu ini, hari libur rutin (senin s.d minggu) dan hari libur khusus (didefinisikan dengan tanggal, bulan dan tahun).
+Untuk konfigurasi &amp;ldquo;Holiday Settings&amp;rdquo;, pengguna tinggal memilih hari yang merupakan hari libur rutin.</description>
+    </item>
+    
+    <item>
+      <title>8.10 Sub-menu Shortcut Setting</title>
+      <link>/system/8.10-sub-menu-shortcut-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:54:02 +0700</pubDate>
+      
+      <guid>/system/8.10-sub-menu-shortcut-setting/</guid>
+      <description>8.10 Sub-menu Shortcut Setting Sub-menu ini baru diperkenalkan pada SLiMS 8 Akasia. Merupakan sub-menu yang digunakan untuk menampilkan pemintas yang dapat ditambahkan atau dikurangi. Hasil konfigurasi pemintas ini dapat dilihat pada sub-menu &amp;ldquo;Shortcut.&amp;rdquo; Lihat gambar yang diberi tanda kotak kuning</description>
+    </item>
+    
+    <item>
+      <title>8.9 Sub-menu User Group</title>
+      <link>/system/8.9-sub-menu-user-group/</link>
+      <pubDate>Fri, 26 Oct 2018 07:53:15 +0700</pubDate>
+      
+      <guid>/system/8.9-sub-menu-user-group/</guid>
+      <description>8.9 Sub-menu User Group Merupakan fasilitas untuk mendefinisikan kelompok pengguna. Dalam &amp;ldquo;User Group&amp;rdquo; ini Anda bisa membuat pengelompokan pengguna sistem serta memberikan hak baca (Read) atau tulis (Write) terhadap menu-menu di dalam SLiMS. Setiap pengguna laman admin pada SLiMS bisa bergabung kelebih dari satu kelompok.</description>
+    </item>
+    
+    <item>
+      <title>8.8 Sub-menu &amp; Librarian System Users</title>
+      <link>/system/8.8-sub-menu-_librarian-system-users/</link>
+      <pubDate>Fri, 26 Oct 2018 07:52:22 +0700</pubDate>
+      
+      <guid>/system/8.8-sub-menu-_librarian-system-users/</guid>
+      <description>8.8 Sub-menu Librarian &amp;amp; System Users Merupakan fasilitas untuk menentukan pengguna yang dapat mengakses sistem sesuai dengak haknya masing-masing. Pengguna ini nantinya dapat melakukan &amp;ldquo;Login&amp;rdquo; sesuai dengan nama pengguna dan kata sandi masing-masing. Dalam sub-menu ini terdapat beberapa fasilitas:
+ Add New User (menambah user); Users List (melihat daftar user); Search (mencari user); Edit dan Delete User.  Untuk menambah pengguna baru, klik Add New User, kemudian isikan:
+ Login Username, nama yang digunakan untuk masuk ke dalam sistem; Real Name, nama asli dari si pengguna sistem; User Type, sesuaikan dengan tipe pengguna yang datanya dimasukkan.</description>
+    </item>
+    
+    <item>
+      <title>8.7 Sub-menu Modules</title>
+      <link>/system/8.7-sub-menu-modules/</link>
+      <pubDate>Fri, 26 Oct 2018 07:49:15 +0700</pubDate>
+      
+      <guid>/system/8.7-sub-menu-modules/</guid>
+      <description>8.7 Sub-menu Modules Di dalamnya terdiri dari &amp;ldquo;Module List&amp;rdquo; (melihat daftar modul), &amp;ldquo;Search&amp;rdquo; (mencari modul), &amp;ldquo;Edit&amp;rdquo; dan &amp;ldquo;Delete Modul&amp;rdquo; serta &amp;ldquo;Add New Module&amp;rdquo; (menambah modul). Untuk menambah modul, direktor modul yang sudah ada diletakkan dalam direktori admin/modules/. Kemudian klik &amp;ldquo;Add New Modules&amp;rdquo;, isikan informasi modul baru, yaitu:
+ Module Name (nama modul); Module Path (path/letak modul); Module Description (deskripsi singkat modul).  kemudian klik &amp;ldquo;Save&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>8.6 Sub-menu Biblio Indexes</title>
+      <link>/system/8.6-sub-menu-biblio-indexes/</link>
+      <pubDate>Fri, 26 Oct 2018 07:45:12 +0700</pubDate>
+      
+      <guid>/system/8.6-sub-menu-biblio-indexes/</guid>
+      <description>8.6 Sub-menu Biblio Indexes Sub-menu ini digunakan untuk melakukan indeks pada pangkalan data bibliografi yang ada dalam SLiMS. Dengan adanya proses indeks ini maka performa pencarian dalam SLiMS, diharapkan dapat meningkat.
+Terdapat tiga fungsi pada menu ini:
+ Emptying Index, untuk mengosongkan hasil indeks yang sudah ada; Re-Create Index, untuk membuat ulang indeks data bibliografi dalam pangkalan data; Update index, untuk melakukan indeks (ulang) pada data bibliografi yang belum terindeks.</description>
+    </item>
+    
+    <item>
+      <title>8.5 Sub-menu Content</title>
+      <link>/system/8.5-sub-menu-content/</link>
+      <pubDate>Fri, 26 Oct 2018 07:42:50 +0700</pubDate>
+      
+      <guid>/system/8.5-sub-menu-content/</guid>
+      <description>8.5 Sub-menu Content Sub-menu ini digunakan untuk mengubah tampilan isi/berita pada aplikasi SLiMS. Secara baku, tampilan yang sudah ada dan dapat dimodifikasi dalam sub-menu ini adalah:
+ Homepage Info, terletak di bagian depan OPAC; Welcome to admin page, tampilan awal ketika masuk ke menu Admin (Senayan Management Console); Help on usage, pada OPAC; Library Information, juga ada pada OPAC.  URL ini dapat kita masukkan pada menu di OPAC dengan menyunting templat.</description>
+    </item>
+    
+    <item>
+      <title>8.4 Sub-menu Theme</title>
+      <link>/system/8.4-sub-menu-theme/</link>
+      <pubDate>Fri, 26 Oct 2018 07:42:15 +0700</pubDate>
+      
+      <guid>/system/8.4-sub-menu-theme/</guid>
+      <description>8.4 Sub-menu Theme Sub-menu ini digunakan untuk memilih theme / template slims. Ada Public Theme untuk template OPAC , Admin Theme untuk template admin
+Anda dapat mendownload Template SLiMS di www.slimskudus.web.id. Ada tempplate free bagus bagus yang dapat anda pakai</description>
+    </item>
+    
+    <item>
+      <title>8.3 Sub-menu UCS Setting</title>
+      <link>/system/8.3-sub-menu-ucs-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:41:15 +0700</pubDate>
+      
+      <guid>/system/8.3-sub-menu-ucs-setting/</guid>
+      <description>8.3 Sub-menu UCS Setting Sub-menu ini memudahkan pengguna SLiMS untuk mengatur SLiMS yang digunakannya agar dapat terhubung dengan peladen katalog bersama (UCS) tanpa harus bersusah payah mensetelnya secara hard code (ke dalam berkas sysconfig.local.inc.php). Ruas yang berada pada sub-menu ini adalah:
+ Enable UCS, dipilih opsi &amp;ldquo;Enable&amp;rdquo; apabila SLiMS yang digunakan akan disambungkan ke peladen katalog bersama berbasis UCS; Auto Delete Record. Apabila kita menghapus data eksemplar dan bibliografi pada menu Bibliography, maka jika opsi dipilih &amp;ldquo;Enable&amp;rdquo; maka data bibliografi yang serupa di peladen katalog bersama akan ikut dihapus; Auto Insert Record.</description>
+    </item>
+    
+    <item>
+      <title>8.2 Sub-menu System Environment</title>
+      <link>/system/8.2-sub-menu-system-environment/</link>
+      <pubDate>Fri, 26 Oct 2018 07:40:11 +0700</pubDate>
+      
+      <guid>/system/8.2-sub-menu-system-environment/</guid>
+      <description> 8.2 Sub-menu System Environment Akan menampilkan informasi tentang sistem berdasarkan perangkat lunak yang digunakan. Informasi yang ditunjukkan pada sub-menu ini adalah:
+ Operating System; OS Architecture; Web Server; PHP Version; MySQL Database Version; MySQL Client Version; Browser/User Agent; Hostname; jQuery Version; HTML5 Support?  </description>
+    </item>
+    
+    <item>
+      <title>8.1 Sub-menu System Configuration</title>
+      <link>/system/8.1-sub-menu-system-configuration/</link>
+      <pubDate>Fri, 26 Oct 2018 07:39:16 +0700</pubDate>
+      
+      <guid>/system/8.1-sub-menu-system-configuration/</guid>
+      <description>8.1 Sub-menu System Configuration Ruas-ruas pada sub-menu ini dapat Anda gunakan untuk melakukan pengubahan preferensi global aplikasi SLiMS, Dapat mengganti bahasa aplikasi , dan lain nya seperti:
+ Senayan Version; Library Name; Library Subname; Default App. Language; Number of Collections to Show in OPAC Result List (jumlah koleksi yang akan ditampilkan pada setiap halaman di OPAC); Show Promoted Titles at Homepage. Menampilkan data koleksi dalam halaman. Pada OPAC akan ditampilkan dalam bentuk slaid sampul buku.</description>
+    </item>
+    
+    <item>
+      <title>6.18 Sub-menu Fines Report</title>
+      <link>/reporting/6.18-sub-menu-fines-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:18:37 +0700</pubDate>
+      
+      <guid>/reporting/6.18-sub-menu-fines-report/</guid>
+      <description>6.18 Sub-menu Fines Report Merupakan laporan jumlah denda anggota perpustakaan berdasarkan hari.</description>
+    </item>
+    
+    <item>
+      <title>6.17 Sub-Menu Visitor List</title>
+      <link>/reporting/6.17-sub-menu-visitor-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:17:35 +0700</pubDate>
+      
+      <guid>/reporting/6.17-sub-menu-visitor-list/</guid>
+      <description> 6.17 Sub-Menu Visitor List Laporan ini berisi daftar nama anggota atau non anggota perpustakaan yang berkunjung ke perpustakaan. Informasi pada penapis pada laporan ini dapat dicari berdasarkan:
+ Membership Type; Visitor ID/Visitor Name; Institution; Visit Date From; Visit Data Until; dan Record Each Page.  Sedangkan pada tabel hasil pencarian, informasi yang ditampilkan adalah:
+ Member ID; Visitor Name; Membership Type; Institution; dan Visit Date.  </description>
+    </item>
+    
+    <item>
+      <title>6.16 Sub-menu Visitor Statictic by Day</title>
+      <link>/reporting/6.16-sub-menu-visitor-statictic-by-day/</link>
+      <pubDate>Fri, 26 Oct 2018 06:16:47 +0700</pubDate>
+      
+      <guid>/reporting/6.16-sub-menu-visitor-statictic-by-day/</guid>
+      <description>6.16 Sub-menu Visitor Statictic by Day Merupakan laporan jumlah pengunjung berdasarkan hari.</description>
+    </item>
+    
+    <item>
+      <title>6.15 Sub-menu Visitor Statistic</title>
+      <link>/reporting/6.15-sub-menu-visitor-statistic/</link>
+      <pubDate>Fri, 26 Oct 2018 06:15:37 +0700</pubDate>
+      
+      <guid>/reporting/6.15-sub-menu-visitor-statistic/</guid>
+      <description>6.15 Sub-menu Visitor Statistic Merupakan laporan yang berisi statistik pengunjung perpustakaan, yang melakukan pendataan pada saat masuk perpustakaan melalui fasilitas absensi. Laporan ini berisi Member Type dan jumlah kunjungan pada tiap bulan pada tahun yang ditentukan. Penentuan laporan berdasar tahun ini dapat dilakukan melalui penapis.</description>
+    </item>
+    
+    <item>
+      <title>Sub-menu Staff Activity</title>
+      <link>/reporting/6.14-sub-menu-staff-activity/</link>
+      <pubDate>Fri, 26 Oct 2018 06:14:47 +0700</pubDate>
+      
+      <guid>/reporting/6.14-sub-menu-staff-activity/</guid>
+      <description>6.14 Sub-menu Staff Activity Menu ini memperlihatkan aktifitas staf perpustakaan yang mempunyai akun di aplikasi SLiMS. Informasi yang ditampilkan adalah:
+ Username; Login Name; Bibliografy Data Entry; Item Data Entry; Member Data Entry; dan Circulation.  Jadi dengan menu ini akan terlihat staf melakukan apa dan berapa kali.
+Untuk memperakurat informasi, disediakan pula penapis yang memungkinkan kita melihat aktifitas dari tanggal awal sampai akhir (seperti yang ditentukan).</description>
+    </item>
+    
+    <item>
+      <title>6.13 Sub-menu Overdued List</title>
+      <link>/reporting/6.13-sub-menu-overdued-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:13:55 +0700</pubDate>
+      
+      <guid>/reporting/6.13-sub-menu-overdued-list/</guid>
+      <description>6.13 Sub-menu Overdued List Berisi laporan/daftar keterlambatan pengembalian anggota perpustakaan. Dalam menu ini terdapat fasilitas untuk mengurutkan dan mencetak.</description>
+    </item>
+    
+    <item>
+      <title>6.12 Sub-menu Due date Warning</title>
+      <link>/reporting/6.12-sub-menu-due-date-warning/</link>
+      <pubDate>Fri, 26 Oct 2018 06:12:22 +0700</pubDate>
+      
+      <guid>/reporting/6.12-sub-menu-due-date-warning/</guid>
+      <description>6.12 Sub-menu Due date Warning Sub-menu ini berisi informasi peminjam koleksi perpustakaan yang dalam 3 (tiga) hari akan tepat pada batas peminjaman.</description>
+    </item>
+    
+    <item>
+      <title>6.11 Sub-menu Loan History</title>
+      <link>/reporting/6.11-sub-menu-loan-history/</link>
+      <pubDate>Fri, 26 Oct 2018 06:10:26 +0700</pubDate>
+      
+      <guid>/reporting/6.11-sub-menu-loan-history/</guid>
+      <description>6.11 Sub-menu Loan History Berisi laporan/daftar sejarah peminjaman perpustakaan.
+Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Pada sub-menu ini, dapat pula dilakukan penapisan dengan menuliskan Member ID/Member Name atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik tombol Show More Filter Options.</description>
+    </item>
+    
+    <item>
+      <title>6.10 Sub-menu Loan List by Member</title>
+      <link>/reporting/6.10-sub-menu-loan-list-by-member/</link>
+      <pubDate>Fri, 26 Oct 2018 06:09:38 +0700</pubDate>
+      
+      <guid>/reporting/6.10-sub-menu-loan-list-by-member/</guid>
+      <description>6.10 Sub-menu Loan List by Member Merupakan laporan yang berisi daftar koleksi yang masih di pinjam Anggota.</description>
+    </item>
+    
+    <item>
+      <title>6.9 Sub-menu Member List</title>
+      <link>/reporting/6.9-sub-menu-member-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:08:46 +0700</pubDate>
+      
+      <guid>/reporting/6.9-sub-menu-member-list/</guid>
+      <description> 6.9 Sub-menu Member List Berisi laporan/daftar anggota perpustakaan. Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Selain itu, terdapat pula fasilitas penapis, yaitu berdasar:
+ Membership Type; Member ID/Member Name; Sex; Address; Register Date From; Register Date Until; dan Record Each Page.  </description>
+    </item>
+    
+    <item>
+      <title>6.8 Sub-menu _Loans by Classification</title>
+      <link>/reporting/6.8-sub-menu-loans-by-classification/</link>
+      <pubDate>Fri, 26 Oct 2018 06:08:01 +0700</pubDate>
+      
+      <guid>/reporting/6.8-sub-menu-loans-by-classification/</guid>
+      <description> 6.8 Sub-menu Loans by Classification Merupakan laporan peminjaman berdasar Klasifikasi. Selain kelas 0-9, pada laporan ini juga dimungkinkan pelaporan berdasarkan kelas 2X dan Non Decimal Class. Sub-menu ini dapat ditapis dengan:
+ Classification; Collection Type; Year; dan Membership Type.  </description>
+    </item>
+    
+    <item>
+      <title>6.7 Sub-menu Item Usage Statistics</title>
+      <link>/reporting/6.7-sub-menu-item-usage-statistics/</link>
+      <pubDate>Fri, 26 Oct 2018 06:06:55 +0700</pubDate>
+      
+      <guid>/reporting/6.7-sub-menu-item-usage-statistics/</guid>
+      <description> 6.7 Sub-menu Item Usage Statistics Merupakan laporan yang menginformasikan jumlah eksemplar, judul, dan berapa kali eksemplar tersebut dipinjam pada setiap bulannya. Isi sub-menu ini dapat pula ditapis dengan:
+ Title/ISBN; Item Code; dan atau Year.  </description>
+    </item>
+    
+    <item>
+      <title>6.6 Sub-menu Items title List</title>
+      <link>/reporting/6.6-sub-menu-items-title-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:05:59 +0700</pubDate>
+      
+      <guid>/reporting/6.6-sub-menu-items-title-list/</guid>
+      <description>6.6 Sub-menu Items title List Berisi laporan/daftar eksemplar yang dimikili oleh perpustakaan. Dalam menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Pada menu ini, dapat pula dilakukan penapisan dengan menuliskan Title/ISBN atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik Show More Filter Options. Fasilitas penapis yang tersedia adalah:
+ Title/ISBN; Item Code; Classification; GMD; Collection Type; Item Status; Location; Publish Year; dan Record Each Page.  Fasilitas penapis ini dapat disembunyikan dengan klik Hide Filter Option.</description>
+    </item>
+    
+    <item>
+      <title>6.5 Sub-menu Title List</title>
+      <link>/reporting/6.5-sub-menu-title-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:05:13 +0700</pubDate>
+      
+      <guid>/reporting/6.5-sub-menu-title-list/</guid>
+      <description>6.5 Sub-menu Title List Berisi laporan/daftar judul yang dimikili oleh perpustakaan. Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak, serta menapis koleksi yang diinginkan. Pada sub-menu ini, dapat pula dilakukan penapisan dengan menuliskan Title/ISBN atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik pada tombol Show More Filter Options. Fasilitas penapis yang ada adalah:
+ Title/ISBN; Author; Classification; GMD; Collection Type; Language; Location; Publish Year; dan Record Each Page.</description>
+    </item>
+    
+    <item>
+      <title>6.4 Sub-menu Customs Recapitulations</title>
+      <link>/reporting/6.4-sub-menu-customs-recapitulations/</link>
+      <pubDate>Fri, 26 Oct 2018 06:04:38 +0700</pubDate>
+      
+      <guid>/reporting/6.4-sub-menu-customs-recapitulations/</guid>
+      <description>6.4 Sub-menu Customs Recapitulations Sub-menu ini menampilkan hasil rekapitulasi koleksi berdasar Classification, GMD, Colection Type, dan atau Language. Pilihan ini dapat kita tentukan melalui penapis yang tersedia. SLiMS juga telah mendukung rekap untuk klasifikasi yang bukan didasarkan pada angka desimal. Misalnya REF untuk referensi.</description>
+    </item>
+    
+    <item>
+      <title>6.3 Sub-menu Membership Report</title>
+      <link>/reporting/6.3-sub-menu-membership-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:03:26 +0700</pubDate>
+      
+      <guid>/reporting/6.3-sub-menu-membership-report/</guid>
+      <description>6.3 Sub-menu Membership Report Berisi informasi keanggotaan, yaitu:
+ Total anggota yang terdaftar; Total anggota aktif; Total anggota berdasar tipe anggota; Total anggota yang tidak aktif; dan Daftar 10 (sepuluh) anggota teraktif.  Laporan yang ada dalam tiga menu yang telah disebutkan tadi dapat diperoleh dalam format .html dan dapat dicetak dengan klik tombol Download Report.
+Mulai Senayan3-stable14, ketiga jenis laporan yang telah disebutkan tadi dilengkapi dengan fitur cetak grafik.</description>
+    </item>
+    
+    <item>
+      <title>6.2 Sub-menu Loan Report</title>
+      <link>/reporting/6.2-sub-menu-loan-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:02:52 +0700</pubDate>
+      
+      <guid>/reporting/6.2-sub-menu-loan-report/</guid>
+      <description> 6.2 Sub-menu Loan Report Berisi informasi seputar peminjaman. Terdiri dari:
+ Total Peminjaman; Peminjaman Berdasarkan GMD; Peminjaman Berdasarkan Tipe Koleksi; Total Transaksi Peminjaman; Rata-rata Transaksi per Hari; Jumlah Anggota yang Sedang Mempunyai Pinjaman; Jumlah Anggota yang Tidak Mempunyai Pinjaman; dan Total Peminjaman yang Terlambat.  </description>
+    </item>
+    
+    <item>
+      <title>6.1 Sub-menu Collection Statistic</title>
+      <link>/reporting/6.1-sub-menu-collection-statistic/</link>
+      <pubDate>Fri, 26 Oct 2018 06:02:18 +0700</pubDate>
+      
+      <guid>/reporting/6.1-sub-menu-collection-statistic/</guid>
+      <description>6.1 Sub-menu Collection Statistic Berisi informasi total judul koleksi, total eksemplar, total eksemplar yang sedang dipinjam, total eksemplar yang berada di perpustakaan (tidak dipinjam), total judul berdasar GMD, total items berdasar tipe koleksi dan 10 (sepuluh) koleksi paling populer (paling banyak dipinjam).</description>
+    </item>
+    
+    <item>
+      <title>5.9 Sub-menu Upload List</title>
+      <link>/stocktake/5.9-sub-menu-upload-list/</link>
+      <pubDate>Fri, 26 Oct 2018 05:46:24 +0700</pubDate>
+      
+      <guid>/stocktake/5.9-sub-menu-upload-list/</guid>
+      <description>5.9 Sub-menu Upload List Sub-menu ini digunakan untuk memasukkan data eksemplar secara otomatis dengan memanfaatkan berkas data eksemplar. Untuk dapat menggunakan sub-menu ini, pertama masukkan data eksemplar menggunakan aplikasi penyunting teks seperti notepad, notepad++, wordpad, geany, atom, dlsb. Susun ke bawah, satu nomor eksemplar (barcode) per baris. Setelah selesai, simpan berkas dalam format .txt.</description>
+    </item>
+    
+    <item>
+      <title>5.8 Sub-menu Resynchronize</title>
+      <link>/stocktake/5.8-sub-menu-resynchronize/</link>
+      <pubDate>Fri, 26 Oct 2018 05:45:31 +0700</pubDate>
+      
+      <guid>/stocktake/5.8-sub-menu-resynchronize/</guid>
+      <description>5.8 Sub-menu Resynchronize Sub-menu ini digunakan untuk melakukan sinkronisasi data bibliografi yang disunting pada saat berlangsung kegiatan inventarisasi. Tujuannya adalah ketika kita melakukan penyuntingan data bibliografi, saat dilakukannya proses inventarisasi, maka untuk menghasilkan perubahan pada data bibliografi yang terdapat di menu Stock Take, perlu dilakukan resinkronisasi data. Klik tombol Resynchronize Now begitu perubahan data bibliografi sudah dilakukan.</description>
+    </item>
+    
+    <item>
+      <title>5.6 Sub-menu Current Lost Items</title>
+      <link>/stocktake/5.6-sub-menu-current-lost-items/</link>
+      <pubDate>Fri, 26 Oct 2018 05:44:22 +0700</pubDate>
+      
+      <guid>/stocktake/5.6-sub-menu-current-lost-items/</guid>
+      <description>5.6 Sub-menu Current Lost Items Isi sub-menu ini merupakan daftar dari eksemplar yang dianggap hilang pada saat inventarisasi selain koleksi yang dipinjam.</description>
+    </item>
+    
+    <item>
+      <title>5.5 Sub-menu Finish Stock Take</title>
+      <link>/stocktake/5.5-sub-menu-finish-stock-take/</link>
+      <pubDate>Fri, 26 Oct 2018 05:43:43 +0700</pubDate>
+      
+      <guid>/stocktake/5.5-sub-menu-finish-stock-take/</guid>
+      <description>5.5 Sub-menu Finish Stock Take Klik sub-menu ini apabila kita telah selesai melakukan inventarisasi. Di dalam sub-menu ini terdapat opsi Purge Lost Item. Apabila kita memberikan tanda centang pada &amp;ldquo;Yes&amp;rdquo;, maka data eksemplar pada menu Bibliografi yang berada dalam sub-menu Current Lost Item akan ditandai dengan status “_Missing_”.</description>
+    </item>
+    
+    <item>
+      <title>5.4 Sub-menu Stock Take Report</title>
+      <link>/stocktake/5.4-sub-menu-stock-take-report/</link>
+      <pubDate>Fri, 26 Oct 2018 05:43:10 +0700</pubDate>
+      
+      <guid>/stocktake/5.4-sub-menu-stock-take-report/</guid>
+      <description>5.4 Sub-menu Stock Take Report Sub-menu ini untuk melihat hasil dari kegiatan inventarisasi yang telah dilakukan, berupa laporan yang memuat informasi tentang jumlah koleksi yang hilang, yang sedang dipinjam dan sebaginya.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Sub-menu Current Stock Take</title>
+      <link>/stocktake/5.3-sub-menu-current-stock-take/</link>
+      <pubDate>Fri, 26 Oct 2018 05:41:25 +0700</pubDate>
+      
+      <guid>/stocktake/5.3-sub-menu-current-stock-take/</guid>
+      <description>5.3 Sub-menu Current Stock Take Sub-menu ini merupakan kegiatan utama dalam menu Stock Take. Digunakan untuk mengembalikan status koleksi perpustakaan yang dianggap hilang oleh sistem, ke status exist (koleksi dinyatakan ada). Pada sub-menu ini, ID eksemplar (nomor barcode) koleksi menjadi acuan utama untuk mengubah status eksemplar koleksi. Caranya dengan memasukan nomor eksemplar (barcode) koleksi tersebut pada ruas Item Code.
+Terdapat ruas List stocktakes by: yang dapat dipilih &amp;ldquo;Current User Only,&amp;rdquo; yang berarti daftar eksemplar yang terlihat adalah yang diinventarisir oleh pustakawan yang bersangkutan atau &amp;ldquo;All User&amp;rdquo;, berarti daftar eksemplar yang diinventarisir adalah eksemplar yang dimasukkan datanya oleh semua pustakawan yang melakukan inventarisasi.</description>
+    </item>
+    
+    <item>
+      <title>5.2 Sub-menu Initialize</title>
+      <link>/stocktake/5.2-sub-menu-initialize/</link>
+      <pubDate>Fri, 26 Oct 2018 05:40:25 +0700</pubDate>
+      
+      <guid>/stocktake/5.2-sub-menu-initialize/</guid>
+      <description>5.2 Sub-menu Initialize Sub-menu Initialize digunakan untuk memulai kegiatan inventarisasi. Klik pada sub-menu ini, maka akan muncul ruas-ruas isian sebagai berikut:
+ Stock Take Name adalah nama dari kegiatan inventarisasi yang dilakukan. Sesuaikan namanya dengan keinginan Anda; GMD (Lihat panduan menu Master File &amp;gt; GMD); Collection Type (Lihat panduan menu Master File &amp;gt; Collection Type); Location (Lihat panduan menu Master File &amp;gt; Location); Shelf Location, mengacu pada rak tempat koleksi disimpan; Classification Mengacu ke sub-menu Subject pada menu Master File.</description>
+    </item>
+    
+    <item>
+      <title>5.1 Sub-menu Stock Take History</title>
+      <link>/stocktake/5.1-sub-menu-stock-take-history/</link>
+      <pubDate>Fri, 26 Oct 2018 05:39:59 +0700</pubDate>
+      
+      <guid>/stocktake/5.1-sub-menu-stock-take-history/</guid>
+      <description>5.1 Sub-menu Stock Take History Berisi laporan stock opname yang telah dilakukan. Informasi dalam menu ini adalah: Stock Take Name, Start Date, End Date, Report. Pranala Report berisi tautan ke dokumen berbentuk .html yang berisi laporan Stock take yang pernah dilakukan.
+Contoh laporan yang dihasilkan pada Stock Take History</description>
+    </item>
+    
+    <item>
+      <title>4.6 Sub-menu Reservation</title>
+      <link>/circulation/4.6-sub-menu-reservation/</link>
+      <pubDate>Fri, 26 Oct 2018 05:15:18 +0700</pubDate>
+      
+      <guid>/circulation/4.6-sub-menu-reservation/</guid>
+      <description> 4.6 Sub-menu Reservation Sub-menu ini digunakan untuk melihat daftar koleksi yang sedang dipesan oleh anggota. informasi yang ada dalam menu ini adalah:
+ Item Code; Title; Member; dan Reserve Date.  </description>
+    </item>
+    
+    <item>
+      <title>4.5 Sub-menu Overdued List</title>
+      <link>/circulation/4.5-sub-menu-overdued-list/</link>
+      <pubDate>Fri, 26 Oct 2018 05:14:23 +0700</pubDate>
+      
+      <guid>/circulation/4.5-sub-menu-overdued-list/</guid>
+      <description> 4.5 Sub-menu Overdued List Merupakan fasilitas untuk mengetahui anggota-anggota dengan status terlambat. Informasi yang ditampilkan dalam fasilitas ini adalah: * Member ID; * Member Name; * Title; * Lama keterlambatan; * Loan Date; * Due Date.
+Dengan Menu ini pula kita dapat melakukan pencetakan dan pencarian data keterlambatan. Pencarian data keterlambatan dilakukan berdasarkan kategori:
+ Member ID/Member Name; Loan Date From; Loan Date Until.  </description>
+    </item>
+    
+    <item>
+      <title>4.4 Sub-menu Loan History</title>
+      <link>/circulation/4.4-sub-menu-loan-history/</link>
+      <pubDate>Fri, 26 Oct 2018 05:13:35 +0700</pubDate>
+      
+      <guid>/circulation/4.4-sub-menu-loan-history/</guid>
+      <description>4.4 Sub-menu Loan History Berisi data transaksi yang pernah dilakukan. Data yang muncul terdiri dari:
+ Member ID; Member Name; Item Code; Title; Loan date; Due date.  Dalam sub-menu ini disediakan fasilitas untuk mencetak daftar sejarah peminjaman. Selain itu dimungkinkan pula untuk melakukan pencarian data sejarah peminjaman. Pencarian data sejaran peminjaman ini dilakukan berdasarkan:
+ Member ID/Member Name; Document Title; Item Code; Loan Date From; dan Loan Date Until.</description>
+    </item>
+    
+    <item>
+      <title>4.3 Sub-menu Loan Rules</title>
+      <link>/circulation/4.3-sub-menu-loan-rules/</link>
+      <pubDate>Fri, 26 Oct 2018 05:12:34 +0700</pubDate>
+      
+      <guid>/circulation/4.3-sub-menu-loan-rules/</guid>
+      <description>4.3 Sub-menu Loan Rules Merupakan fasilitas untuk mendefinisikan secara spesifik aturan peminjaman yang didasarkan pada Member Type, Collection Type, GMD. Aturan yang ditetapkan dalam fasilitas ini sama seperti kita membuat aturan pada sub-menu Member Type dengan mengisi ruas:
+ Loan Limit (Batas Jumlah Peminjaman); Loan Period (Periode Peminjaman); Reborrow Limit (Batas Perpanjangan); Fines Each Day (Denda per Hari); dan Overdue Grace Period (Toleransi Keterlambatan).  Contoh Pendefinisian Loan Rules:</description>
+    </item>
+    
+    <item>
+      <title>4.1 Sub-menu Start Transaction</title>
+      <link>/circulation/4.1-sub-menu-start-transaction/</link>
+      <pubDate>Fri, 26 Oct 2018 05:11:14 +0700</pubDate>
+      
+      <guid>/circulation/4.1-sub-menu-start-transaction/</guid>
+      <description>4.1 Sub-menu Start Transaction Untuk melakukan transaksi melalui Member ID (ID anggota). Setelah Member ID dimasukkan, maka akan muncul informasi anggota, yaitu:
+ Member Name (nama anggota); Member Email (surel anggota); Register Date (tanggal mendaftar); Member ID (ID anggota); Member Type (tipe keanggotaan); Expiry Date (tanggal daluwarsa keanggotaan); dan foto anggota.  Dibawahnya terdapat tabulasi:
+ Loans, untuk melakukan transaksi peminjaman; Current Loans, daftar peminjaman terkini; Reserve, untuk kebutuhan pemesanan eksemplar yang statusnya sedang dipinjam; Fines (denda), menghimpun informasi tentang denda peminjaman (jika ada).</description>
+    </item>
+    
+    <item>
+      <title>4.2 Sub-menu Quick Return</title>
+      <link>/circulation/4.2-sub-menu-quick-return/</link>
+      <pubDate>Fri, 26 Oct 2018 05:11:14 +0705</pubDate>
+      
+      <guid>/circulation/4.2-sub-menu-quick-return/</guid>
+      <description>4.2 Sub-menu Quick Return Untuk melakukan pengembalian secara cepat, tanpa harus masuk ke dalam akun pemustaka, dengan menggunakan ID eksemplar (barcode eksemplar).</description>
+    </item>
+    
+    <item>
+      <title>3.6 Sub-menu Import Data</title>
+      <link>/member/3.6-sub-menu-import-data/</link>
+      <pubDate>Fri, 26 Oct 2018 04:40:33 +0700</pubDate>
+      
+      <guid>/member/3.6-sub-menu-import-data/</guid>
+      <description>3.6 Sub-menu Import Data Menu ini digunakan untuk mengambil data anggota dari luar aplikasi SLiMS. Format data yang di import adalah .csv. Kolom-kolom data yang akan diimpor harus sesuai, seperti yang dicontohkan oleh hasil ekspor yang dibahas pada sub-bab sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>3.5 Sub-menu Export Data</title>
+      <link>/member/3.5-sub-menu-export-data/</link>
+      <pubDate>Fri, 26 Oct 2018 04:39:49 +0700</pubDate>
+      
+      <guid>/member/3.5-sub-menu-export-data/</guid>
+      <description>3.5 Sub-menu Export Data Menu ini digunakan untuk mengambil data anggota pada pangkalan data SLiMS dan hasilnya adalah data dalam format .csv.
+Contoh keluaran csv dari data anggota adalah:
+ &amp;ldquo;M001&amp;rdquo;,&amp;ldquo;Hendro Wicaksono&amp;rdquo;,&amp;ldquo;0&amp;rdquo;,&amp;ldquo;Mahasiswa&amp;rdquo;,&amp;ldquo;hendrowicaksono@yahoo.com&amp;rdquo;,&amp;ldquo;Jakarta&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;Perpustakaan DIKNAS&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;member&amp;#92;_M001.jpeg&amp;rdquo;,&amp;ldquo;KTP No. 123&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;2008-12-25&amp;rdquo;,&amp;ldquo;2008-12-25&amp;rdquo;,&amp;ldquo;2009-12-25&amp;rdquo;,&amp;ldquo;Anggota Teladan tahun 2006&amp;rdquo;
+ Untuk melihat pola kolom yang digunakan pada data anggota di SLiMS dengan jelas, buka berkas .csv menggunakan aplikasi lembar-sebar seperti MS-Excel atau LibreOffice Spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>3.4 Sub-menu Member Card Printing</title>
+      <link>/member/3.4-sub-menu-member-card-printing/</link>
+      <pubDate>Fri, 26 Oct 2018 04:39:06 +0700</pubDate>
+      
+      <guid>/member/3.4-sub-menu-member-card-printing/</guid>
+      <description>3.4 Sub-menu Member Card Printing Menu ini digunakan untuk mencetak kartu anggota. Cara mencetaknya sama dengan cara mencetak label atau barcode. Informasi yang ada dalam kartu anggota ini adalah: * Member ID; * Member Name; * Member Type; * Barcode; * Foto (Jika ada); * Identitas perpustakaan pada sisi sebaliknya.
+Kartu anggota juga dapat disetel ukurannya melalui Member Card Print Settings yang dilambangkan dengan ikon kunci di sebelah tombol Print Member Cards for Selected Data.</description>
+    </item>
+    
+    <item>
+      <title>3.3 Sub-menu Member Type</title>
+      <link>/member/3.3-sub-menu-member-type/</link>
+      <pubDate>Fri, 26 Oct 2018 04:37:50 +0700</pubDate>
+      
+      <guid>/member/3.3-sub-menu-member-type/</guid>
+      <description>3.3 Sub-menu Member Type Merupakan definisi jenis keanggotaan. Di dalam jenis keanggotaan ini ditetapkan:
+ Member Type Name: Jenis keanggotaan yang diterapkan oleh perpustakaan. Masukkan di sini; Loan Limit: Batas jumlah eksemplar yang dapat dipinjam; Loan Periode (In Days): Lamanya waktu pinjam; Reserve: Pemesanan buku yang dalam status sedang dipinjam; Reserve Limit: batas jumlah eksemplar yang dapat dipesan; Membership Period (In Days): Waktu yang ditentukan untuk masa keanggotaan, disesuaikan dengan ketentuan yang berlaku di perpustakaan; Reborrow Limit: Batas perpanjangan eksemplar yang dipinjam; Fine Each Day: Denda per hari; Overdue Grace Periode: Toleransi keterlambatan (dalam hari).</description>
+    </item>
+    
+    <item>
+      <title>3.2 Sub-menu Add New member</title>
+      <link>/member/3.2-sub-menu-add-new-member/</link>
+      <pubDate>Fri, 26 Oct 2018 04:37:02 +0700</pubDate>
+      
+      <guid>/member/3.2-sub-menu-add-new-member/</guid>
+      <description>3.2 Sub-menu Add New member Fasilitas untuk menambahkan data anggota baru ke dalam sistem SLiMS. Data anggota yang dimasukkan adalah:
+ Member ID: ID Anggota - barcode/RFID; Member Name: Nama Lengkap Anggota; Register Date: Tanggal mendaftar; Expiry Date: Tanggal daluwarsa. Secara baku, opsi Auto Set dicentang. Artinya, masa keanggotaan akan dihitung sesuai tipe keanggotaan yang dipilih. Namun jika tanda centang dihilangkan, maka Expiry date dapat ditentukan secara manual, dengan memilih tanggal daluwarsanya.</description>
+    </item>
+    
+    <item>
+      <title>3.1 Sub-menu View Member List</title>
+      <link>/member/3.1-sub-menu-view-member-list/</link>
+      <pubDate>Fri, 26 Oct 2018 04:36:31 +0700</pubDate>
+      
+      <guid>/member/3.1-sub-menu-view-member-list/</guid>
+      <description>3.1 Sub-menu View Member List Digunakan untuk melihat daftar anggota yang telah terdaftar. Informasi yang ditampilkan adalah:
+ Member ID; Member Name; Membership Type; Email; Last Updated.  Pada daftar ini dilengkapi pula dengan fasilitas hapus (DELETE) dan sunting (EDIT).
+Jika terdapat masa keanggotaan yang daluwarsa, maka kita dapat memperpanjang dengan mengklik menu sunting yang diwakili oleh ikon pena, di samping ruas Member ID atau klik dua kali pada data anggota yang bersangkutan.</description>
+    </item>
+    
+    <item>
+      <title>2.13 Sub-menu Item Import</title>
+      <link>/bibliografi/2.13-sub-menu-item-import/</link>
+      <pubDate>Thu, 25 Oct 2018 21:11:29 +0700</pubDate>
+      
+      <guid>/bibliografi/2.13-sub-menu-item-import/</guid>
+      <description>2.13 Sub-menu Item Import Sub-menu ini digunakan untuk memasukkan data eksemplar ke dalam pangkalan data SLiMS. Jika kegiatan ini dilakukan dari pangkalan data SLiMS yang satu ke SLiMS yang lain, maka Item Import dilakukan setelah Data Import. Artinya eksemplar akan menyesuaikan data bibliografi yang telah diimpor terlebih dahulu.</description>
+    </item>
+    
+    <item>
+      <title>2.12 Sub-menu Item Export</title>
+      <link>/bibliografi/2.12-sub-menu-item-export/</link>
+      <pubDate>Thu, 25 Oct 2018 21:07:39 +0700</pubDate>
+      
+      <guid>/bibliografi/2.12-sub-menu-item-export/</guid>
+      <description>2.12 Sub-menu Item Export Digunakan untuk mengeksport data eksemplar SLiMS kedalam format CSV Format hasil ekspor data eksemplar pada SLiMS adalah sebagai berikut:
+ &amp;ldquo;B00001&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;Reference&amp;rdquo;,&amp;ldquo;INV/B00001&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;MyLibrary&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;1&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;500000&amp;rdquo;,&amp;ldquo;Rupiah&amp;rdquo;,&amp;ldquo;0000-00-00&amp;rdquo;,&amp;ldquo;2008-12-26 22:11:10&amp;rdquo;,&amp;ldquo;2008-12-26 22:14:13&amp;rdquo;,&amp;ldquo;Ajax : creating Web pages with asynchronous JavaScript and XML&amp;rdquo;
+ Format di atas merupakan acuan jika ingin memasukkan data eksemplar .csv ke SLiMS. Untuk melihat pola kolom yang digunakan pada data eksemplar di SLiMS dengan jelas, buka berkas .csv menggunakan aplikasi lembar-sebar seperti MS-Excel atau LibreOffice Spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>2.11 Sub-menu Data Import</title>
+      <link>/bibliografi/2.11-sub-menu-data-import/</link>
+      <pubDate>Thu, 25 Oct 2018 21:05:01 +0700</pubDate>
+      
+      <guid>/bibliografi/2.11-sub-menu-data-import/</guid>
+      <description>2.11 Sub-menu Data Import Sub-menu ini digunakan untuk mengambil data bibliografi dari luar SLiMS dalam format csv (atau dari pangkalan data SLiMS dalam bentuk .csv).
+Untuk petunjuk impor data, tim Pengembang SLiMS sudah membuat secara detail beberapa manual konversi dari aplikasi berikut:
+ Athenaeum; CDS/WIN/SIPISIS.  Manual-manual tersebut dapat diunduh di:
+ Manual migrasi data dari Athenaeum - https://goo.gl/pPUY9B Manual migrasi dari CDS/WIN/SIPISIS - https://goo.gl/D8VLFP  Untuk konversi dari Athenaeum, tim Pengembang SLiMS pernah membuat alat migrasi secara daring yang dapat diakses pada laman:</description>
+    </item>
+    
+    <item>
+      <title>2.10 Sub-menu Data Export</title>
+      <link>/bibliografi/2.10-sub-menu-data-export/</link>
+      <pubDate>Thu, 25 Oct 2018 21:00:36 +0700</pubDate>
+      
+      <guid>/bibliografi/2.10-sub-menu-data-export/</guid>
+      <description>2.10 Sub-menu Data Export Sub-menu ini digunakan untuk mengambil data bibliografi dalam aplikasi SLiMS, untuk kemudian dapat dimasukkan dalam aplikasi SLiMS lainnya. Proses ini dapat dipahami sebagai pertukaran data.
+Proses ekspor akan menghasilkan berkas .csv. Format .csv apabila kita lihat isinya, secara berurutan berisi data sebagai berikut:
+ Title GMD Edition ISBN/ISSN Publisher Publishing Year Collation Series Title Call Number Language Publishing Place Classification Abstract/Notes Cover File Name, Attachment File Name Author Subjects Item Code  Contohnya adalah sebagai berikut:</description>
+    </item>
+    
+    <item>
+      <title>2.9 Sub-menu Catalog Printing</title>
+      <link>/bibliografi/2.9-sub-menu-catalog-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:59:00 +0700</pubDate>
+      
+      <guid>/bibliografi/2.9-sub-menu-catalog-printing/</guid>
+      <description>2.9 Sub-menu Catalog Printing Fitur ini dapat digunakan untuk mencetak kartu katalog. Cara mencetak hampir sama dengan cara mencetak barcode dan label buku. Hasil dari pencetakan adalah sebagaimana gambar dibawah ini:</description>
+    </item>
+    
+    <item>
+      <title>2.8 Sub-menu MARC Export dan Import</title>
+      <link>/bibliografi/2.8-sub-menu-marc-export-dan-import/</link>
+      <pubDate>Thu, 25 Oct 2018 20:57:26 +0700</pubDate>
+      
+      <guid>/bibliografi/2.8-sub-menu-marc-export-dan-import/</guid>
+      <description>2.8 Sub-menu MARC Export dan Import Fitur ini digunakan untuk mengekspor data bibliografi dari SLiMS ke dalam format .mrc atau mengimpor data MARC baik itu berekstensi .mrc ataupun .xml. Sebelum menggunakan fitur ini, syaratnya pada peladen SLiMS telah terpasang aplikasi PEAR, FILE_MARC dan Structures_LinkedList. Pada peladen yang menggunakan sistem operasi GnU/linux (Ubuntu, misalnya), cara pemasangannya dapat dilihat pada blog ini:
+ https://goo.gl/2bI4tX https://goo.gl/dejszi  Jika sudah terinstall, maka yang tampil adalah:</description>
+    </item>
+    
+    <item>
+      <title>2.7 Sub-menu Item Barcodes Printing</title>
+      <link>/bibliografi/2.7-sub-menu-item-barcodes-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:55:43 +0700</pubDate>
+      
+      <guid>/bibliografi/2.7-sub-menu-item-barcodes-printing/</guid>
+      <description>2.7 Sub-menu Item Barcodes Printing Menu ini sebagai sarana mencetak barcode berdasar data nomor eksemplar yang sudah dimasukkan ke SLiMS. Berikut urutan mencetak barcode eksemplar menggunakan sub-menu Item Barcodes Printing:
+ Klik Item Barcode Printing, maka akan muncul tampilan sebagai berikut:   Pilih nomor eksemplar yang akan dicetak. Gunakan tombol Shift+klik check box untuk memilih lebih dari satu secara berurutan dengan cepat.  Catatan: sekali cetak maksimal 50 data.</description>
+    </item>
+    
+    <item>
+      <title>2.6 Sub-menu Labels Printing</title>
+      <link>/bibliografi/2.6-sub-menu-labels-printing/</link>
+      <pubDate>Thu, 25 Oct 2018 20:53:52 +0700</pubDate>
+      
+      <guid>/bibliografi/2.6-sub-menu-labels-printing/</guid>
+      <description>2.6 Sub-menu Labels Printing Dengan menu ini kita dapat mencetak label koleksi berdasar data bibliografi yang sudah dimasukkan ke SLiMS. Berikut urutan mencetak label menggunakan sub-menu Labels Printing:
+ Klik Labels Printing, maka akan muncul tampilan sebagai berikut:   Pilih bibliografi yang akan dicetak labelnya. Gunakan tombol Shift+klik check box untuk memilih lebih dari satu data secara berurutan dengan cepat.   Catatan: sekali cetak maksimal 50 data. Dalam menu Labels Print ini sudah dimungkinkan untuk mencetak label lebih dari satu, tergantung pada berapa jumlah eksemplar koleksi.</description>
+    </item>
+    
+    <item>
+      <title>2.5.3.1 Konfigurasi P2P Service</title>
+      <link>/bibliografi/2.5.3.1-konfigurasi-p2p-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:40:16 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.3.1-konfigurasi-p2p-service/</guid>
+      <description>2.5.3.1 Konfigurasi P2P Service P2P dapat dikonfigurasi melalui perubahan pada berkas sysconfig.inc.php sebagaimana contoh berikut:
+Cari baris seperti di bawah ini:
+ $sysconf[&amp;lsquo;p2pserver&amp;rsquo;][1] = array(&amp;lsquo;uri&amp;rsquo; =&amp;gt; &amp;lsquo;http://127.0.0.1/senayan3-stable14&amp;rsquo;, &amp;lsquo;name&amp;rsquo; =&amp;gt; &amp;lsquo;SLiMS Library&amp;rsquo;);
+ Salin baris tersebut ke dalam berkas sysconfig.local.inc.php, kemudian sunting sesuai dengan alamat dan nama Perpustakaan yang dituju. Jika ada lebih dari satu alamat yang dituju, maka dapat ditambahkan baris di bawahnya, sebagaimana contoh berikut:
+ $sysconf[&amp;lsquo;p2pserver&amp;rsquo;][1] = array(&amp;lsquo;uri&amp;rsquo; =&amp;gt; &amp;lsquo;http://127.</description>
+    </item>
+    
+    <item>
+      <title>2.5.3 P2P Service</title>
+      <link>/bibliografi/2.5.3-p2p-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:36:50 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.3-p2p-service/</guid>
+      <description>2.5.3 P2P Service P2P Service merupakan fitur salin katalog yang dibuat mulai dari Senayan 3 Stable 14. Konsep dasar dari fitur ini adalah berbagi data bibliografi antar pengguna SLiMS. P2P Service memanfaatkan fasilitas xml yang ada di SLiMS untuk berbagi koleksi bibligrafi. Untuk menggunakannya, cukup dengan klik P2P Service, isikan kata kunci dan pilih lokasi/url/perpustakaan yang dituju untuk pencarian. Jika SLiMS menemukan koleksi yang dicari, maka akan ditampilkan.
+Pencarian pada P2P Service ini dapat menggunakan pencarian spesifik model Boolean.</description>
+    </item>
+    
+    <item>
+      <title>2.5.2 Z39.50 Service</title>
+      <link>/bibliografi/2.5.2-z39.50-service/</link>
+      <pubDate>Thu, 25 Oct 2018 20:33:15 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.2-z39.50-service/</guid>
+      <description>2.5.2 Z39.50 Service Merupakan fitur baru di SLiMS mulai stable-10, fitur ini memungkinkan perpustakaan pengguna SLiMS untuk mengambil koleksi dari berbagai perpustakaan. Secara baku Z39.50 disetel mengarah ke Library of Congress (http://loc.gov), namun dapat ditambahi sesuka kita. Pustakawan cukup memasukkan judul, pengarang atau ISBN/ISSN, kemudian SLiMS akan mengambil data. Jika hasilnya lebih dari satu, maka pustakawan dimungkinkan untuk memilih koleksi yang diinginkan kemudian klik pada tombol &amp;ldquo;Save.&amp;rdquo;
+Untuk efektifitas penggunaan Z39.</description>
+    </item>
+    
+    <item>
+      <title>2.5.1 Z39.50 SRU: Search/Retrieval via URL</title>
+      <link>/bibliografi/2.5.1-z39.50-sru-search-retrieval-via-url/</link>
+      <pubDate>Thu, 25 Oct 2018 19:54:27 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5.1-z39.50-sru-search-retrieval-via-url/</guid>
+      <description>2.5.1 Z39.50 SRU: Search/Retrieval via URL Merupakan fitur yang digunakan untuk proses copy cataloging sebagaimana pada Z 39.50 Service. Perbedaan dari sisi pengguna, penggunaan SRU tidak mensyaratkan instalasi YAZ.</description>
+    </item>
+    
+    <item>
+      <title>2.5 Sub-menu Copy Cataloging</title>
+      <link>/bibliografi/2.5-sub-menu-copy-cataloging/</link>
+      <pubDate>Thu, 25 Oct 2018 11:08:34 +0700</pubDate>
+      
+      <guid>/bibliografi/2.5-sub-menu-copy-cataloging/</guid>
+      <description>2.5 Sub-menu Copy Cataloging Copy cataloging pada SLiMS mengoptimalkan 3 (tiga) layanan tukar menukar data. Z39.50 SRU dengan memanfaatkan xml yang berformat MODS, Z 39.50 yang memanfaatkan YAZ, serta P2P service yang memanfaatkan XML antar SLiMS.</description>
+    </item>
+    
+    <item>
+      <title>2.4 Sub-menu Checkout Items</title>
+      <link>/bibliografi/2.4-sub-menu-checkout-items/</link>
+      <pubDate>Thu, 25 Oct 2018 11:06:03 +0700</pubDate>
+      
+      <guid>/bibliografi/2.4-sub-menu-checkout-items/</guid>
+      <description> 2.4 Sub-menu Checkout Items Sub-menu ini memberikan informasi tentang status eksemplar yang sedang dipinjam. Sub-menu ini juga dilengkapi dengan fasilitas pencarian dengan pendekatan nomor eksemplar dan judul bibliografi. Informasi yang ada dalam sub-menu ini adalah:
+ Item Code Title Collection Type Location Classification Last Updated  </description>
+    </item>
+    
+    <item>
+      <title>2.3 Sub menu Item List</title>
+      <link>/bibliografi/2.3-sub-menu-item-list/</link>
+      <pubDate>Thu, 25 Oct 2018 11:04:03 +0700</pubDate>
+      
+      <guid>/bibliografi/2.3-sub-menu-item-list/</guid>
+      <description>2.3 Sub-menu Item List Sub-menu ini digunakan untuk melihat data eksemplar dalam pangkalan data SLiMS. Informasi yang ada dalam sub-menu ini adalah:
+ Item Code Title Type Location Classification Last Update  Dengan sub-menu menu ini dapat pula dilakukan proses sunting dan hapus eksemplar. Berikut langkah untuk menyunting atau menghapus data eksemplar:
+ Cari eksemplar yang akan diubah/dihapus dengan mengetikkan judul atau kode eksemplar pada kolom &amp;ldquo;Search&amp;rdquo; kemudian klik &amp;ldquo;Search.</description>
+    </item>
+    
+    <item>
+      <title>2.2 Sub Menu Add New Bibliography</title>
+      <link>/bibliografi/2.2-sub-menu-add-new-bibliography/</link>
+      <pubDate>Thu, 25 Oct 2018 10:32:13 +0700</pubDate>
+      
+      <guid>/bibliografi/2.2-sub-menu-add-new-bibliography/</guid>
+      <description>2.2 Sub-menu Add New Bibliography Sub-menu ini digunakan untuk menambah bibliografi baru, klik pada Add New Bibliography. Maka akan muncul layar seperti di bawah ini:
+Metadata yang harus kita isikan adalah:
+ Title: Judul koleksi. Masukkan judul dari bahan perpustakaan yang akan diolah. Author: Kepengarangan. Masukkan nama pengarang di sini. Statement of Responbility: Pernyataan tanggungjawab. Pada ruas ini, masukkan nama pengarang tanpa dibalik, apabila pada ruas Author nama pengarang ditulis terbalik (nama keluarga terlebih dahulu).</description>
+    </item>
+    
+    <item>
+      <title>2.1 Sub Menu Bibliographic List</title>
+      <link>/bibliografi/sub-menu-bibliographic-list/</link>
+      <pubDate>Thu, 25 Oct 2018 10:29:51 +0700</pubDate>
+      
+      <guid>/bibliografi/sub-menu-bibliographic-list/</guid>
+      <description>2.1 Sub-menu Bibliographic List Sub-menu ini digunakan untuk melihat data bibliografi yang sudah ada dalam pangkalan data SLiMS. Informasi yang dimunculkan dalam sub-menu ini adalah:
+ Title Author ISBN/ISSN Copies Last Update  Sub-menu ini memungkinkan kita untuk dapat mengurutkan daftar berdasar judul, ISSN/ISBN, copies (jumlah eksemplar), dan Last Update. Dengan sub-menu ini pula, bibliografi dapat dicari untuk disunting atau dihapus. Berikut langkah untuk menyunting atau menghapus bibliografi lewat menu &amp;ldquo;Bibliographic List&amp;rdquo;:</description>
+    </item>
+    
+    <item>
+      <title>_Footer</title>
+      <link>/_footer/</link>
+      <pubDate>Thu, 25 Oct 2018 10:01:37 +0700</pubDate>
+      
+      <guid>/_footer/</guid>
+      <description>Hak Cipta Oleh SDC</description>
+    </item>
+    
+  </channel>
+</rss>

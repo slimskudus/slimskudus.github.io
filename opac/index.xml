@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0 Opac on Manual SLiMS Kudus</title>
+    <link>/opac/</link>
+    <description>Recent content in 0 Opac on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2018 10:08:43 +0700</lastBuildDate>
+    
+	<atom:link href="/opac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0.2 Menu pada Tampilan OPAC SLiMS</title>
+      <link>/opac/0.2-menu-tampilan-opac-slims/</link>
+      <pubDate>Fri, 26 Oct 2018 16:24:07 +0700</pubDate>
+      
+      <guid>/opac/0.2-menu-tampilan-opac-slims/</guid>
+      <description>0.2 Menu pada Tampilan OPAC SLiMS Seperti yang telah disebutkan pada bagian sebelumnya, berikut adalah tampilan menu-menu yang dapat diakses oleh pengguna/pemustaka.
+0.2.1 Menu-menu pada OPAC Penjelasan: Menu-menu tersebut dapat diakses dengan klik pada gambar garis bertumpuk 3 (tiga) pada bagian kanan atas halaman OPAC. Apabila kita klik pada menu Home, maka kita akan dibawa ke halaman OPAC.
+0.2.2 Tampilan laman Library News Penjelasan:
+Laman Library News ditujukan sebagai laman untuk penyampaian berita kegiatan yang dilakukan oleh Perpustakaan.</description>
+    </item>
+    
+    <item>
+      <title>0.1 Custom Field Record List</title>
+      <link>/opac/0.1-custom-field-record-list/</link>
+      <pubDate>Fri, 26 Oct 2018 16:15:44 +0700</pubDate>
+      
+      <guid>/opac/0.1-custom-field-record-list/</guid>
+      <description>0.1 Custom Field Record List Pada Aplikasi Senayan stable 8 ini, ditambahi dengan fasilitas penampilan field record secara cuztomise. Penambahan ini dapat dilakukan dengan mengedit file custom_frontpage_record.inc.php yang terdapat pada folder template OPAC. Jadi jika anda ingin mengubah tampilan yang disediakan, dan anda menggunakan template default, anda harus mengedit file custom_frontpage_record.inc.php yang ada di template/default/. Isi dari file ini adalah:
+ // change &amp;ldquo;0&amp;rdquo; value to &amp;ldquo;1&amp;rdquo; to enable field</description>
+    </item>
+    
+  </channel>
+</rss>

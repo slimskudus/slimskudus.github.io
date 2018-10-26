@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8 System on Manual SLiMS Kudus</title>
+    <link>/system/</link>
+    <description>Recent content in 8 System on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 07:38:01 +0700</lastBuildDate>
+    
+	<atom:link href="/system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>8.14 Sub-menu Backup Database</title>
+      <link>/system/8.14-sub-menu-backup-database/</link>
+      <pubDate>Fri, 26 Oct 2018 07:57:47 +0700</pubDate>
+      
+      <guid>/system/8.14-sub-menu-backup-database/</guid>
+      <description>8.14 Sub-menu Backup Database Merupakan fasilitas untuk membuat cadangan (backup) pangkalan data SLiMS. Untuk dapat membuat cadangan, perlu terlebih dahulu didefinisikan letak/jalur aplikasi mysqldump. Caranya adalah dengan mengedit berkas sysconfig.inc.php. Cari baris yang tertulis:
+ $sysconf [&amp;lsquo;mysqldump&amp;rsquo;] = &amp;lsquo;/usr/bin/mysqldump&amp;rsquo;;
+ gantilah /usr/bin/mysqldump sesuai dengan letak mysqldump di komputer server (peladen). Setelah jalur aplikasi mysqldump tepat, klik Start New Backup maka SLiMS akan membuat cadangan secara otomatis.
+Format berkas cadangan yang dibuat Senayan adalan .</description>
+    </item>
+    
+    <item>
+      <title>8.13 Sub-menu System Log</title>
+      <link>/system/8.13-sub-menu-system-log/</link>
+      <pubDate>Fri, 26 Oct 2018 07:57:12 +0700</pubDate>
+      
+      <guid>/system/8.13-sub-menu-system-log/</guid>
+      <description>8.13 Sub-menu System Log Merupakan sub-menu untuk melihat rekaman proses yang dilakukan oleh SLiMS. Rekaman yang muncul adalah Time (waktu), Location (lokasi -nama modul-), dan Message (keterangan). Message yang muncul dalam System Logs ini meliputi siapa (Pengguna Biasa/Administrator), melakukan apa, dan dari mana.
+Ketika aplikasi SLiMS ini sudah lama digunakan, maka secara otomatis catatan proses kerja SLiMS juga akan bertambah banyak. Oleh karena itu, dalam sub-menu ini, diberikan fasilitas SAVE LOGS TO FILES.</description>
+    </item>
+    
+    <item>
+      <title>8.12 Sub-menu Barcode Generator</title>
+      <link>/system/8.12-sub-menu-barcode-generator/</link>
+      <pubDate>Fri, 26 Oct 2018 07:55:50 +0700</pubDate>
+      
+      <guid>/system/8.12-sub-menu-barcode-generator/</guid>
+      <description>8.12 Sub-menu Barcode Generator Merupakan fasilitas untuk membuat barkod (kode batang).
+Masukkan angka, huruf, dan atau kombinasi keduanya, yang akan dibuat menjadi barkod pada kolom-kolom yang ada di layar. Tentukan ukuran barkod (Small, Medium, atau Big),
+kemudian klik tombol Generate Barcode. Maka barkod dapat dilihat dalam bentuk .html dan dapat dicetak. Berikut contoh hasil barcode generator</description>
+    </item>
+    
+    <item>
+      <title>8.11 Sub-menu Holiday Setting</title>
+      <link>/system/8.11-sub-menu-holiday-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:54:56 +0700</pubDate>
+      
+      <guid>/system/8.11-sub-menu-holiday-setting/</guid>
+      <description>8.11 Sub-menu Holiday Setting Merupakan fasilitas untuk menentukan hari-hari libur dimana perpustakaan tidak membuka pelayanan. Pendefinisian hari libur ini akan perpengaruh pada perhitungan hari kerja/buka aktif perpustakaan dan perhitungan denda. Ada dua jenis hari libur yang dapat didefinisikan dalam menu ini, hari libur rutin (senin s.d minggu) dan hari libur khusus (didefinisikan dengan tanggal, bulan dan tahun).
+Untuk konfigurasi &amp;ldquo;Holiday Settings&amp;rdquo;, pengguna tinggal memilih hari yang merupakan hari libur rutin.</description>
+    </item>
+    
+    <item>
+      <title>8.10 Sub-menu Shortcut Setting</title>
+      <link>/system/8.10-sub-menu-shortcut-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:54:02 +0700</pubDate>
+      
+      <guid>/system/8.10-sub-menu-shortcut-setting/</guid>
+      <description>8.10 Sub-menu Shortcut Setting Sub-menu ini baru diperkenalkan pada SLiMS 8 Akasia. Merupakan sub-menu yang digunakan untuk menampilkan pemintas yang dapat ditambahkan atau dikurangi. Hasil konfigurasi pemintas ini dapat dilihat pada sub-menu &amp;ldquo;Shortcut.&amp;rdquo; Lihat gambar yang diberi tanda kotak kuning</description>
+    </item>
+    
+    <item>
+      <title>8.9 Sub-menu User Group</title>
+      <link>/system/8.9-sub-menu-user-group/</link>
+      <pubDate>Fri, 26 Oct 2018 07:53:15 +0700</pubDate>
+      
+      <guid>/system/8.9-sub-menu-user-group/</guid>
+      <description>8.9 Sub-menu User Group Merupakan fasilitas untuk mendefinisikan kelompok pengguna. Dalam &amp;ldquo;User Group&amp;rdquo; ini Anda bisa membuat pengelompokan pengguna sistem serta memberikan hak baca (Read) atau tulis (Write) terhadap menu-menu di dalam SLiMS. Setiap pengguna laman admin pada SLiMS bisa bergabung kelebih dari satu kelompok.</description>
+    </item>
+    
+    <item>
+      <title>8.8 Sub-menu &amp; Librarian System Users</title>
+      <link>/system/8.8-sub-menu-_librarian-system-users/</link>
+      <pubDate>Fri, 26 Oct 2018 07:52:22 +0700</pubDate>
+      
+      <guid>/system/8.8-sub-menu-_librarian-system-users/</guid>
+      <description>8.8 Sub-menu Librarian &amp;amp; System Users Merupakan fasilitas untuk menentukan pengguna yang dapat mengakses sistem sesuai dengak haknya masing-masing. Pengguna ini nantinya dapat melakukan &amp;ldquo;Login&amp;rdquo; sesuai dengan nama pengguna dan kata sandi masing-masing. Dalam sub-menu ini terdapat beberapa fasilitas:
+ Add New User (menambah user); Users List (melihat daftar user); Search (mencari user); Edit dan Delete User.  Untuk menambah pengguna baru, klik Add New User, kemudian isikan:
+ Login Username, nama yang digunakan untuk masuk ke dalam sistem; Real Name, nama asli dari si pengguna sistem; User Type, sesuaikan dengan tipe pengguna yang datanya dimasukkan.</description>
+    </item>
+    
+    <item>
+      <title>8.7 Sub-menu Modules</title>
+      <link>/system/8.7-sub-menu-modules/</link>
+      <pubDate>Fri, 26 Oct 2018 07:49:15 +0700</pubDate>
+      
+      <guid>/system/8.7-sub-menu-modules/</guid>
+      <description>8.7 Sub-menu Modules Di dalamnya terdiri dari &amp;ldquo;Module List&amp;rdquo; (melihat daftar modul), &amp;ldquo;Search&amp;rdquo; (mencari modul), &amp;ldquo;Edit&amp;rdquo; dan &amp;ldquo;Delete Modul&amp;rdquo; serta &amp;ldquo;Add New Module&amp;rdquo; (menambah modul). Untuk menambah modul, direktor modul yang sudah ada diletakkan dalam direktori admin/modules/. Kemudian klik &amp;ldquo;Add New Modules&amp;rdquo;, isikan informasi modul baru, yaitu:
+ Module Name (nama modul); Module Path (path/letak modul); Module Description (deskripsi singkat modul).  kemudian klik &amp;ldquo;Save&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>8.6 Sub-menu Biblio Indexes</title>
+      <link>/system/8.6-sub-menu-biblio-indexes/</link>
+      <pubDate>Fri, 26 Oct 2018 07:45:12 +0700</pubDate>
+      
+      <guid>/system/8.6-sub-menu-biblio-indexes/</guid>
+      <description>8.6 Sub-menu Biblio Indexes Sub-menu ini digunakan untuk melakukan indeks pada pangkalan data bibliografi yang ada dalam SLiMS. Dengan adanya proses indeks ini maka performa pencarian dalam SLiMS, diharapkan dapat meningkat.
+Terdapat tiga fungsi pada menu ini:
+ Emptying Index, untuk mengosongkan hasil indeks yang sudah ada; Re-Create Index, untuk membuat ulang indeks data bibliografi dalam pangkalan data; Update index, untuk melakukan indeks (ulang) pada data bibliografi yang belum terindeks.</description>
+    </item>
+    
+    <item>
+      <title>8.5 Sub-menu Content</title>
+      <link>/system/8.5-sub-menu-content/</link>
+      <pubDate>Fri, 26 Oct 2018 07:42:50 +0700</pubDate>
+      
+      <guid>/system/8.5-sub-menu-content/</guid>
+      <description>8.5 Sub-menu Content Sub-menu ini digunakan untuk mengubah tampilan isi/berita pada aplikasi SLiMS. Secara baku, tampilan yang sudah ada dan dapat dimodifikasi dalam sub-menu ini adalah:
+ Homepage Info, terletak di bagian depan OPAC; Welcome to admin page, tampilan awal ketika masuk ke menu Admin (Senayan Management Console); Help on usage, pada OPAC; Library Information, juga ada pada OPAC.  URL ini dapat kita masukkan pada menu di OPAC dengan menyunting templat.</description>
+    </item>
+    
+    <item>
+      <title>8.4 Sub-menu Theme</title>
+      <link>/system/8.4-sub-menu-theme/</link>
+      <pubDate>Fri, 26 Oct 2018 07:42:15 +0700</pubDate>
+      
+      <guid>/system/8.4-sub-menu-theme/</guid>
+      <description>8.4 Sub-menu Theme Sub-menu ini digunakan untuk memilih theme / template slims. Ada Public Theme untuk template OPAC , Admin Theme untuk template admin
+Anda dapat mendownload Template SLiMS di www.slimskudus.web.id. Ada tempplate free bagus bagus yang dapat anda pakai</description>
+    </item>
+    
+    <item>
+      <title>8.3 Sub-menu UCS Setting</title>
+      <link>/system/8.3-sub-menu-ucs-setting/</link>
+      <pubDate>Fri, 26 Oct 2018 07:41:15 +0700</pubDate>
+      
+      <guid>/system/8.3-sub-menu-ucs-setting/</guid>
+      <description>8.3 Sub-menu UCS Setting Sub-menu ini memudahkan pengguna SLiMS untuk mengatur SLiMS yang digunakannya agar dapat terhubung dengan peladen katalog bersama (UCS) tanpa harus bersusah payah mensetelnya secara hard code (ke dalam berkas sysconfig.local.inc.php). Ruas yang berada pada sub-menu ini adalah:
+ Enable UCS, dipilih opsi &amp;ldquo;Enable&amp;rdquo; apabila SLiMS yang digunakan akan disambungkan ke peladen katalog bersama berbasis UCS; Auto Delete Record. Apabila kita menghapus data eksemplar dan bibliografi pada menu Bibliography, maka jika opsi dipilih &amp;ldquo;Enable&amp;rdquo; maka data bibliografi yang serupa di peladen katalog bersama akan ikut dihapus; Auto Insert Record.</description>
+    </item>
+    
+    <item>
+      <title>8.2 Sub-menu System Environment</title>
+      <link>/system/8.2-sub-menu-system-environment/</link>
+      <pubDate>Fri, 26 Oct 2018 07:40:11 +0700</pubDate>
+      
+      <guid>/system/8.2-sub-menu-system-environment/</guid>
+      <description> 8.2 Sub-menu System Environment Akan menampilkan informasi tentang sistem berdasarkan perangkat lunak yang digunakan. Informasi yang ditunjukkan pada sub-menu ini adalah:
+ Operating System; OS Architecture; Web Server; PHP Version; MySQL Database Version; MySQL Client Version; Browser/User Agent; Hostname; jQuery Version; HTML5 Support?  </description>
+    </item>
+    
+    <item>
+      <title>8.1 Sub-menu System Configuration</title>
+      <link>/system/8.1-sub-menu-system-configuration/</link>
+      <pubDate>Fri, 26 Oct 2018 07:39:16 +0700</pubDate>
+      
+      <guid>/system/8.1-sub-menu-system-configuration/</guid>
+      <description>8.1 Sub-menu System Configuration Ruas-ruas pada sub-menu ini dapat Anda gunakan untuk melakukan pengubahan preferensi global aplikasi SLiMS, Dapat mengganti bahasa aplikasi , dan lain nya seperti:
+ Senayan Version; Library Name; Library Subname; Default App. Language; Number of Collections to Show in OPAC Result List (jumlah koleksi yang akan ditampilkan pada setiap halaman di OPAC); Show Promoted Titles at Homepage. Menampilkan data koleksi dalam halaman. Pada OPAC akan ditampilkan dalam bentuk slaid sampul buku.</description>
+    </item>
+    
+  </channel>
+</rss>

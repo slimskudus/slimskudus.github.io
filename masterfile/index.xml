@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>9 Master File on Manual SLiMS Kudus</title>
+    <link>/masterfile/</link>
+    <description>Recent content in 9 Master File on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 14:54:34 +0700</lastBuildDate>
+    
+	<atom:link href="/masterfile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>9.21 Sub-menu Orphaned Place</title>
+      <link>/masterfile/9.21-sub-menu-orphaned-place/</link>
+      <pubDate>Fri, 26 Oct 2018 15:21:00 +0700</pubDate>
+      
+      <guid>/masterfile/9.21-sub-menu-orphaned-place/</guid>
+      <description>9.21 Sub-menu Orphaned Place Sub-menu ini digunakan untuk menapis tempat/kota terbit yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Place, akan muncul daftar tempat/kota terbit yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.
+CATATAN:
+ORPHANED AUTHOR, ORPHANED SUBJECT, ORPHANED PUBLISHER, ORPHANED PLACE adalah data atau list mana saja yang sudah tidak terpakai dikoleksi kita (data bibligrafi sudah di hapus, salah ketik, atau sudah tidak pernah dipakai).</description>
+    </item>
+    
+    <item>
+      <title>9.20 Sub-menu Orphaned Publisher</title>
+      <link>/masterfile/9.20-sub-menu-orphaned-publisher/</link>
+      <pubDate>Fri, 26 Oct 2018 15:20:28 +0700</pubDate>
+      
+      <guid>/masterfile/9.20-sub-menu-orphaned-publisher/</guid>
+      <description>9.20 Sub-menu Orphaned Publisher Sub-menu ini digunakan untuk menapis nama penerbit yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Publisher, akan muncul daftar nama penerbit yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.19 Sub-menu Orphaned Subject</title>
+      <link>/masterfile/9.19-sub-menu-orphaned-subject/</link>
+      <pubDate>Fri, 26 Oct 2018 15:19:51 +0700</pubDate>
+      
+      <guid>/masterfile/9.19-sub-menu-orphaned-subject/</guid>
+      <description>9.19 Sub-menu Orphaned Subject Sub-menu ini digunakan untuk menapis subyek yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Subject, akan muncul daftar subyek yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.18 Sub-menu Orphaned Author</title>
+      <link>/masterfile/9.18-sub-menu-orphaned-author/</link>
+      <pubDate>Fri, 26 Oct 2018 15:19:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.18-sub-menu-orphaned-author/</guid>
+      <description>9.18 Sub-menu Orphaned Author Sub-menu ini digunakan untuk menapis pengarang/author yang ada dalam pangkalan data SLiMS, namun tidak digunakan. Ketika telah ditapis dengan cara klik Orphaned Author, akan muncul daftar pengarang yang tidak digunakan. Jika anda ingin menghapus, silakan pilih beberapa atau semua kemudian Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.17 Sub-menu Item Code Pattern</title>
+      <link>/masterfile/9.17-sub-menu-item-code-pattern/</link>
+      <pubDate>Fri, 26 Oct 2018 15:18:17 +0700</pubDate>
+      
+      <guid>/masterfile/9.17-sub-menu-item-code-pattern/</guid>
+      <description>9.17 Sub-menu Item Code Pattern Merupakan fitur baru yang dikembangkan di SLiMS 8 Akasia. Item Code Pattern merupakan generator nomor eksemplar sehingga ketika pustakawan melakukan pengolah bahan perpustakaan tidak perlu memasukkan nomor eksemplar (lihat pada menu Bibliography) secara manual dan ketika pengolahan bahan perpustakaan diolah oleh lebih dari satu orang, tidak perlu ada koordinasi penggunaan nomor eksemplar. Dengan mendefinisikan pola kode eksemplar pada sub-menu ini, maka SLiMS akan otomatis membuat nomor eksemplar dengan cukup memasukkan jumlah eksemplar yang diolah.</description>
+    </item>
+    
+    <item>
+      <title>9.16 Sub-menu Cataloging Servers</title>
+      <link>/masterfile/9.16-sub-menu-cataloging-servers/</link>
+      <pubDate>Fri, 26 Oct 2018 15:17:42 +0700</pubDate>
+      
+      <guid>/masterfile/9.16-sub-menu-cataloging-servers/</guid>
+      <description>9.16 Sub-menu Cataloging Servers Sub-menu ini berfungsi untuk menambahkan titik peladen yang hendak dijadikan sumber copycatalog di Modul Bibliography (Sub-menu Z3950 SRU, Z3950 Service, dan P2P). Berikut ini langkah-langkah untuk memanfaatkan sub-menu ini:
+ Klik menu Master File; Klik sub-menu Cataloging Servers; Klik Add New Server; Isi kolom Server Name, URI, dan Server Type; Klik Save.  Hasilnya dapat kita lihat pada menu Bibliography bagian copycatalog (Z39.50 atau P2P).</description>
+    </item>
+    
+    <item>
+      <title>9.15 Sub-menu Frequency</title>
+      <link>/masterfile/9.15-sub-menu-frequency/</link>
+      <pubDate>Fri, 26 Oct 2018 15:17:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.15-sub-menu-frequency/</guid>
+      <description>9.15 Sub-menu Frequency Sub-menu ini diisi dengan kala/frekuensi terbit terbitan berseri.</description>
+    </item>
+    
+    <item>
+      <title>9.14 Sub-menu Label</title>
+      <link>/masterfile/9.14-sub-menu-label/</link>
+      <pubDate>Fri, 26 Oct 2018 15:16:34 +0700</pubDate>
+      
+      <guid>/masterfile/9.14-sub-menu-label/</guid>
+      <description>9.14 Sub-menu Label Sub-menu ini berfungsi untuk memberikan informasi khusus tentang bibliografi. Label dapat didefinisikan pada menu Master File. Secara baku, SLiMS mempunyai tiga label: New Title, Favorite Title, dan Multimedia.</description>
+    </item>
+    
+    <item>
+      <title>9.13 Sub-menu Doc. Language</title>
+      <link>/masterfile/9.13-sub-menu-doc.language/</link>
+      <pubDate>Fri, 26 Oct 2018 15:14:59 +0700</pubDate>
+      
+      <guid>/masterfile/9.13-sub-menu-doc.language/</guid>
+      <description>9.13 Sub-menu Doc. Language Sub-menu ini diisikan dengan bahasa yang digunakan oleh dokumen. Misal: Bahasa Indonesia, Bahasa Inggris, Bahasa Perancis, Bahasa Jawa dll. Sub-menu ini memiliki beberapa fitur seperti:
+ Language List, untuk melihat daftar bahasa. Daftar bahasa ini dapat diurutkan berdasarkan Language dan Last Update; Add New Language, untuk menambahkan bahasa baru; Delete, untuk menghapus bahasa yang sudah ada di dalam daftar; Edit, untuk mengubah bahasa yang sudah ada di dalam daftar; Search, untuk mencari bahasa yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.12 Sub-menu Collection Type</title>
+      <link>/masterfile/9.12-sub-menu-collection-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:14:19 +0700</pubDate>
+      
+      <guid>/masterfile/9.12-sub-menu-collection-type/</guid>
+      <description>9.12 Sub-menu Collection Type Sub-menu ini diisikan dengan tipe koleksi yang dimiliki perpustakaan, misal: Textbook, Reference, Fiction. Sub-menu ini memiliki beberapa fitur seperti:
+ Collection Type List, untuk melihat daftar tipe koleksi. Daftar tipe koleksi ini dapat diurutkan berdasarkan Collection Type dan Last Update; Add New Collection Type, untuk menambahkan tipe koleksi baru; Delete, untuk menghapus tipe koleksi yang sudah ada di dalam daftar; Edit, untuk mengubah tipe koleksi yang sudah ada di dalam daftar; Search, untuk mencari tipe koleksi yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.11 Sub-menu Item Status</title>
+      <link>/masterfile/9.11-sub-menu-item-status/</link>
+      <pubDate>Fri, 26 Oct 2018 15:13:26 +0700</pubDate>
+      
+      <guid>/masterfile/9.11-sub-menu-item-status/</guid>
+      <description> 9.11 Sub-menu Item Status Sub-menu ini diisikan dengan status eksemplar (Repair, On Loan, Reserved). Pada Item Status ini diisikan:
+ Item Status Code; Item Status Name; serta Rules.  Ada dua pilihan dalam Rules:
+ No Loan Transaction, eksemplar tidak bisa dipinjam, misal: koleksi digital; dan Skipped by Stock Take, tidak diproses dalam Stock Take.  </description>
+    </item>
+    
+    <item>
+      <title>9.10 Sub-menu Place</title>
+      <link>/masterfile/9.10-sub-menu-place/</link>
+      <pubDate>Fri, 26 Oct 2018 15:12:39 +0700</pubDate>
+      
+      <guid>/masterfile/9.10-sub-menu-place/</guid>
+      <description>9.10 Sub-menu Place Sub-menu ini diisikan dengan kota/tempat terbit. Sub-menu ini memiliki beberapa fitur seperti:
+ Place List untuk melihat daftar kota atau tempat terbit. Daftar tempat ini dapat diurutkan berdasarkan Place Name dan Last Update; Add New Place untuk menambahkan nama kota/tempat baru; Delete untuk menghapus nama kota/tempat yang sudah ada di dalam daftar; Edit untuk mengubah nama kota/tempat yang sudah ada di dalam daftar; Search untuk mencari nama kota/tempat yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.9 Sub-menu Location</title>
+      <link>/masterfile/9.9-sub-menu-location/</link>
+      <pubDate>Fri, 26 Oct 2018 15:12:04 +0700</pubDate>
+      
+      <guid>/masterfile/9.9-sub-menu-location/</guid>
+      <description>9.9 Sub-menu Location Sub-menu ini diisikan kode lokasi dan nama lokasi penempatan koleksi. Sub-menu ini bermanfaat untuk perpustakaan yang memiliki beberapa ruangan atau gedung perpustakaan yang terpisah.</description>
+    </item>
+    
+    <item>
+      <title>9.8 Sub-menu Subject</title>
+      <link>/masterfile/9.8-sub-menu-subject/</link>
+      <pubDate>Fri, 26 Oct 2018 15:11:22 +0700</pubDate>
+      
+      <guid>/masterfile/9.8-sub-menu-subject/</guid>
+      <description>9.8 Sub-menu Subject Sub-menu ini diisikan dengan topik/subyek dari data koleksi yang kita masukkan. Sub-menu ini memiliki fitur yang berguna untuk kosa kata terkendali (vocabulary control). Menu ini diisi berdasarkan sebuah daftar bahasa indeks seperti Daftar Tajuk Subjek Perpusnas, Tesaurus Bidang Hukum, atau Library of Congress Subject Headings.
+Cara pemanfaatan menu ini dapat dipelajari lebih lanjut melalui slide presentasi yang ada di http://www.pdii.lipi.go.id/read/data/2016/08/Sis3\_Danang\_2016.pdf atau artikel yang ada pada halaman 215 di prosiding berikut ini https://drive.</description>
+    </item>
+    
+    <item>
+      <title>9.7 Sub-menu Author</title>
+      <link>/masterfile/9.7-sub-menu-author/</link>
+      <pubDate>Fri, 26 Oct 2018 15:09:09 +0700</pubDate>
+      
+      <guid>/masterfile/9.7-sub-menu-author/</guid>
+      <description>9.7 Sub-menu Author Sub-menu ini diisikan dengan nama pengarang dan jenis pengarang (pribadi atau institusi). Sub-menu ini memiliki beberapa fitur seperti:
+ Author List untuk melihat daftar pengarang. Daftar pengarang ini dapat diurutkan berdasarkan Author Name, Author Year, Author type, Authority Files, dan Last Update; Add New Author untuk menambahkan nama pengarang baru; Delete untuk menghapus nama pengarang yang sudah ada di dalam daftar; Edit untuk mengubah nama pengarang yang sudah ada di dalam daftar; Search untuk mencari nama pengarang yang ada di dalam daftar.</description>
+    </item>
+    
+    <item>
+      <title>9.6 Sub-menu Supplier</title>
+      <link>/masterfile/9.6-sub-menu-supplier/</link>
+      <pubDate>Fri, 26 Oct 2018 15:08:26 +0700</pubDate>
+      
+      <guid>/masterfile/9.6-sub-menu-supplier/</guid>
+      <description>9.6 Sub-menu Supplier Menu ini merupakan data master dari supplier atau agen yang menjadi rekanan perpustakaan dalam mendapatkan koleksi. Data supplier perlu diisikan di sini terlebih dahulu untuk dapat digunakan pada halaman kerja penambahan eksemplar. Berikut ini langkah-langkahnya:
+ Klik Master File; Klik Supplier; Klik Add New Supllier; Isi kolom dan Save.  Apabila data agen sudah kita masukkan ke dalam SLiMS, kita dapat menggunakannya saat melakukan penambahan eksemplar buku (Add New Item).</description>
+    </item>
+    
+    <item>
+      <title>9.5 Sub-menu Publisher</title>
+      <link>/masterfile/9.5-sub-menu-publisher/</link>
+      <pubDate>Fri, 26 Oct 2018 15:07:42 +0700</pubDate>
+      
+      <guid>/masterfile/9.5-sub-menu-publisher/</guid>
+      <description>9.5 Sub-menu Publisher Sub-menu ini diisikan dengan nama penerbit. Sub-menu ini memiliki beberapa fitur seperti:
+ Publisher List untuk melihat daftar penerbit-penerbit. Daftar penerbit ini dapat diurutkan berdasarkan Publisher Name dan Last Update; Add New Publisher untuk menambahkan nama penerbit baru; Delete untuk menghapus nama penerbit yang sudah ada di dalam daftar penerbit; Edit untuk mengubah nama penerbit yang sudah ada di dalam daftar penerbit; Search untuk mencari nama penerbit yang ada di dalam daftar penerbit.</description>
+    </item>
+    
+    <item>
+      <title>9.4 Sub-menu Carrier Type</title>
+      <link>/masterfile/9.4-sub-menu-carrier-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:07:11 +0700</pubDate>
+      
+      <guid>/masterfile/9.4-sub-menu-carrier-type/</guid>
+      <description>9.4 Sub-menu Carrier Type Sub-menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Sub-menu ini diisikan dengan tipe pembawa yang merujuk pada Resource Description Access (RDA). Sub-menu ini memiliki fitur Carrier Type List, Add New Carrier Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.3 Sub-menu Media Type</title>
+      <link>/masterfile/9.3-sub-menu-media-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:05:01 +0700</pubDate>
+      
+      <guid>/masterfile/9.3-sub-menu-media-type/</guid>
+      <description>9.3 Sub-menu Media Type Sub-menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Sub-menu ini diisikan dengan tipe media yang merujuk pada Resource Description Access (RDA). sub-menu ini memiliki fitur Media Type List, Add New Media Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.2 Sub-menu Content Type</title>
+      <link>/masterfile/9.2-sub-menu-content-type/</link>
+      <pubDate>Fri, 26 Oct 2018 15:04:12 +0700</pubDate>
+      
+      <guid>/masterfile/9.2-sub-menu-content-type/</guid>
+      <description>9.2 Sub-menu Content Type Menu ini merupakan fitur yang dirancang untuk mengakomodasi standar pengatalogan yang baru yaitu Resource Description Access (RDA). Menu ini diisikan dengan tipe isi yang merujuk pada Resource Description Access (RDA). Menu ini memiliki fitur Content Type List, Add New Content Type, Edit, Delete.</description>
+    </item>
+    
+    <item>
+      <title>9.1 Sub-menu GMD</title>
+      <link>/masterfile/9.1-sub-menu-gmd/</link>
+      <pubDate>Fri, 26 Oct 2018 15:02:29 +0700</pubDate>
+      
+      <guid>/masterfile/9.1-sub-menu-gmd/</guid>
+      <description>9.1 Sub-menu GMD (General Material Designation) Bentuk fisik koleksi atau media fisik tempat penyimpanan informasi. Daftar dan tata cara penggunaan GMD merujuk atau dapat kita lihat pada Anglo American Cataloguing Rules (AACR). Kita dapat melihat daftar dari GMD yang ada dengan mengklik GMD List, Menambahkan GMD dengan mengklik Add New GMD, menghapus GMD dalam daftar, dan melakukan perubahan/sunting GMD dalam daftar.</description>
+    </item>
+    
+  </channel>
+</rss>

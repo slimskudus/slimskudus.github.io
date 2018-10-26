@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>11 Visitor Counter on Manual SLiMS Kudus</title>
+    <link>/visitor-counter/</link>
+    <description>Recent content in 11 Visitor Counter on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 20:57:00 +0700</lastBuildDate>
+    
+	<atom:link href="/visitor-counter/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>11.1 Mengamankan Visitor Counter</title>
+      <link>/visitor-counter/11.1-mengamankan-visitor-counter/</link>
+      <pubDate>Fri, 26 Oct 2018 22:06:14 +0700</pubDate>
+      
+      <guid>/visitor-counter/11.1-mengamankan-visitor-counter/</guid>
+      <description>11.1 Mengamankan Visitor Counter Untuk keamanan dan validitas proses absensi pengunjung, Visitor Counter ini dapat di seting hanya komputer dengan Internet Protokol tertentu saja yang dapat mengakses. Pengaturan ini terdapat dalam file visitor.inc.php yang ada dalam folder /senayan/lib/contents/visitor.inc.php. Scriptnya adalah sebagai berikut:
+$allowed_counter_ip = array(&amp;#39;127.0.0.1&amp;#39;); Pada script diatas, 127.0.0.1 merupakan IP address yang diijinkan untuk mengakses visitor counter. Jika ada lebih dari satu komputer maka IP Address komputer yang bersangkutan harus diisikan didalam script diatas.</description>
+    </item>
+    
+  </channel>
+</rss>

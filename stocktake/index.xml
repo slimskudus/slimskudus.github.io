@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 Stocktake on Manual SLiMS Kudus</title>
+    <link>/stocktake/</link>
+    <description>Recent content in 5 Stocktake on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 05:37:57 +0700</lastBuildDate>
+    
+	<atom:link href="/stocktake/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>5.9 Sub-menu Upload List</title>
+      <link>/stocktake/5.9-sub-menu-upload-list/</link>
+      <pubDate>Fri, 26 Oct 2018 05:46:24 +0700</pubDate>
+      
+      <guid>/stocktake/5.9-sub-menu-upload-list/</guid>
+      <description>5.9 Sub-menu Upload List Sub-menu ini digunakan untuk memasukkan data eksemplar secara otomatis dengan memanfaatkan berkas data eksemplar. Untuk dapat menggunakan sub-menu ini, pertama masukkan data eksemplar menggunakan aplikasi penyunting teks seperti notepad, notepad++, wordpad, geany, atom, dlsb. Susun ke bawah, satu nomor eksemplar (barcode) per baris. Setelah selesai, simpan berkas dalam format .txt.</description>
+    </item>
+    
+    <item>
+      <title>5.8 Sub-menu Resynchronize</title>
+      <link>/stocktake/5.8-sub-menu-resynchronize/</link>
+      <pubDate>Fri, 26 Oct 2018 05:45:31 +0700</pubDate>
+      
+      <guid>/stocktake/5.8-sub-menu-resynchronize/</guid>
+      <description>5.8 Sub-menu Resynchronize Sub-menu ini digunakan untuk melakukan sinkronisasi data bibliografi yang disunting pada saat berlangsung kegiatan inventarisasi. Tujuannya adalah ketika kita melakukan penyuntingan data bibliografi, saat dilakukannya proses inventarisasi, maka untuk menghasilkan perubahan pada data bibliografi yang terdapat di menu Stock Take, perlu dilakukan resinkronisasi data. Klik tombol Resynchronize Now begitu perubahan data bibliografi sudah dilakukan.</description>
+    </item>
+    
+    <item>
+      <title>5.6 Sub-menu Current Lost Items</title>
+      <link>/stocktake/5.6-sub-menu-current-lost-items/</link>
+      <pubDate>Fri, 26 Oct 2018 05:44:22 +0700</pubDate>
+      
+      <guid>/stocktake/5.6-sub-menu-current-lost-items/</guid>
+      <description>5.6 Sub-menu Current Lost Items Isi sub-menu ini merupakan daftar dari eksemplar yang dianggap hilang pada saat inventarisasi selain koleksi yang dipinjam.</description>
+    </item>
+    
+    <item>
+      <title>5.5 Sub-menu Finish Stock Take</title>
+      <link>/stocktake/5.5-sub-menu-finish-stock-take/</link>
+      <pubDate>Fri, 26 Oct 2018 05:43:43 +0700</pubDate>
+      
+      <guid>/stocktake/5.5-sub-menu-finish-stock-take/</guid>
+      <description>5.5 Sub-menu Finish Stock Take Klik sub-menu ini apabila kita telah selesai melakukan inventarisasi. Di dalam sub-menu ini terdapat opsi Purge Lost Item. Apabila kita memberikan tanda centang pada &amp;ldquo;Yes&amp;rdquo;, maka data eksemplar pada menu Bibliografi yang berada dalam sub-menu Current Lost Item akan ditandai dengan status “_Missing_”.</description>
+    </item>
+    
+    <item>
+      <title>5.4 Sub-menu Stock Take Report</title>
+      <link>/stocktake/5.4-sub-menu-stock-take-report/</link>
+      <pubDate>Fri, 26 Oct 2018 05:43:10 +0700</pubDate>
+      
+      <guid>/stocktake/5.4-sub-menu-stock-take-report/</guid>
+      <description>5.4 Sub-menu Stock Take Report Sub-menu ini untuk melihat hasil dari kegiatan inventarisasi yang telah dilakukan, berupa laporan yang memuat informasi tentang jumlah koleksi yang hilang, yang sedang dipinjam dan sebaginya.</description>
+    </item>
+    
+    <item>
+      <title>5.3 Sub-menu Current Stock Take</title>
+      <link>/stocktake/5.3-sub-menu-current-stock-take/</link>
+      <pubDate>Fri, 26 Oct 2018 05:41:25 +0700</pubDate>
+      
+      <guid>/stocktake/5.3-sub-menu-current-stock-take/</guid>
+      <description>5.3 Sub-menu Current Stock Take Sub-menu ini merupakan kegiatan utama dalam menu Stock Take. Digunakan untuk mengembalikan status koleksi perpustakaan yang dianggap hilang oleh sistem, ke status exist (koleksi dinyatakan ada). Pada sub-menu ini, ID eksemplar (nomor barcode) koleksi menjadi acuan utama untuk mengubah status eksemplar koleksi. Caranya dengan memasukan nomor eksemplar (barcode) koleksi tersebut pada ruas Item Code.
+Terdapat ruas List stocktakes by: yang dapat dipilih &amp;ldquo;Current User Only,&amp;rdquo; yang berarti daftar eksemplar yang terlihat adalah yang diinventarisir oleh pustakawan yang bersangkutan atau &amp;ldquo;All User&amp;rdquo;, berarti daftar eksemplar yang diinventarisir adalah eksemplar yang dimasukkan datanya oleh semua pustakawan yang melakukan inventarisasi.</description>
+    </item>
+    
+    <item>
+      <title>5.2 Sub-menu Initialize</title>
+      <link>/stocktake/5.2-sub-menu-initialize/</link>
+      <pubDate>Fri, 26 Oct 2018 05:40:25 +0700</pubDate>
+      
+      <guid>/stocktake/5.2-sub-menu-initialize/</guid>
+      <description>5.2 Sub-menu Initialize Sub-menu Initialize digunakan untuk memulai kegiatan inventarisasi. Klik pada sub-menu ini, maka akan muncul ruas-ruas isian sebagai berikut:
+ Stock Take Name adalah nama dari kegiatan inventarisasi yang dilakukan. Sesuaikan namanya dengan keinginan Anda; GMD (Lihat panduan menu Master File &amp;gt; GMD); Collection Type (Lihat panduan menu Master File &amp;gt; Collection Type); Location (Lihat panduan menu Master File &amp;gt; Location); Shelf Location, mengacu pada rak tempat koleksi disimpan; Classification Mengacu ke sub-menu Subject pada menu Master File.</description>
+    </item>
+    
+    <item>
+      <title>5.1 Sub-menu Stock Take History</title>
+      <link>/stocktake/5.1-sub-menu-stock-take-history/</link>
+      <pubDate>Fri, 26 Oct 2018 05:39:59 +0700</pubDate>
+      
+      <guid>/stocktake/5.1-sub-menu-stock-take-history/</guid>
+      <description>5.1 Sub-menu Stock Take History Berisi laporan stock opname yang telah dilakukan. Informasi dalam menu ini adalah: Stock Take Name, Start Date, End Date, Report. Pranala Report berisi tautan ke dokumen berbentuk .html yang berisi laporan Stock take yang pernah dilakukan.
+Contoh laporan yang dihasilkan pada Stock Take History</description>
+    </item>
+    
+  </channel>
+</rss>

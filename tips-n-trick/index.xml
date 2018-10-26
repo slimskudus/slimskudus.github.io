@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>10 Tips N Trick on Manual SLiMS Kudus</title>
+    <link>/tips-n-trick/</link>
+    <description>Recent content in 10 Tips N Trick on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 16:25:57 +0700</lastBuildDate>
+    
+	<atom:link href="/tips-n-trick/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10.12 Member Custom Field</title>
+      <link>/tips-n-trick/10.12-member-custom-field/</link>
+      <pubDate>Fri, 26 Oct 2018 20:45:58 +0700</pubDate>
+      
+      <guid>/tips-n-trick/10.12-member-custom-field/</guid>
+      <description>10.12 Member Custom Field Serupa dengan Biblio Custom, pada fitur ini pengguna senayan dapat menambahkan informasi (field) baru yang harus diisikan dalam informasi keanggotaan. Untuk menambahkan field baru, langkah-langkahnya adalah sebagai berikut:
+ Buka file member_custom_fields.inc.php yang terletak di folder /admin/modul/membership
+ Dalam file ini terdapat 5 custom field yang dapat digunakan. Ini code yang masih asli
+  $member_custom_fields = array( &amp;#39;customfield1&amp;#39; =&amp;gt; array( &amp;#39;dbfield&amp;#39; =&amp;gt; &amp;#39;customfield1&amp;#39;, // name of field in &amp;#39;biblio&amp;#39; table in database, make sure you already define it!</description>
+    </item>
+    
+    <item>
+      <title>10.11 Biblio Custom Field</title>
+      <link>/tips-n-trick/1.11-biblio-custom-field/</link>
+      <pubDate>Fri, 26 Oct 2018 20:35:01 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.11-biblio-custom-field/</guid>
+      <description>10.11 Biblio Custom Field Fitur ini digunakan untuk menambahkan Field baru pada Bibliografi, dimana field ini dibutuhkan oleh perpustakaan yang menggunakan Senayan namun belum tersedia dalam field standard SLiMS.
+Untuk menambahkan field baru dilakukan langkah sebagai berikut:
+ Buka file custom_fields.inc.php yang terletak pada folder admin/modul/bibliography
+ Dalam file ini tersedia lima (5) Custom Field yang dapat digunakan, Untuk mengaktifkan nya hapus tanda komentar. Tanda bintang dan garis miring */</description>
+    </item>
+    
+    <item>
+      <title>10.10 Menambah Server Z.39</title>
+      <link>/tips-n-trick/1.10-menambah-server-z.39.50/</link>
+      <pubDate>Fri, 26 Oct 2018 20:30:50 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.10-menambah-server-z.39.50/</guid>
+      <description>10.10 Menambah Server Z.39.50 Mulai Senayan3-stable15 (Matoa), pengguna SLiMS dimudahkan jika ingin menambahkan tujuan z.39.50 baru. Syarat penggunaan z39.50 adalah terhubung ke internet, dan port yang dibutuhkan terbuka. Sebagaimana diketahui, sebelumnya z39.50 di SLiMS hanya menuju ke Library of Congress Amerika. Bagaimana menambahkannya?
+ Buka situs http://irspy.indexdata.com/, pada situs ini anda dapat menemukan berbagai alamat perpustakaan yang menyediakan server z39.50 untuk saling menukar data. Alamat tersebut dikumpulkan berdasar abjad. Alamat yang akan digunakan adalah perpaduan antara Host, Port dan DB.</description>
+    </item>
+    
+    <item>
+      <title>10.9 Menambah Captcha</title>
+      <link>/tips-n-trick/1.9-menambah-captcha/</link>
+      <pubDate>Fri, 26 Oct 2018 20:24:17 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.9-menambah-captcha/</guid>
+      <description>10.9 Menambah Captcha Mulai Senayan3-Stable15 (Matoa), ada penambahan fasilitas pengamanan login pada login pustakawan dan member, yaitu penambahan captcha
+Captcha ini ada dua, untuk Librarian Login dan untuk Member Login. Untuk mengaktifkan captcha tersebut, perlu diseting pada file sysconfig.inc.php. ubah false menjadi true
+/** * Captcha Settings */ // Captcha settings for Senayan Management Console (aka Librarian Login) $sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;enable&amp;#39;] = false; // value can be &amp;#39;true&amp;#39; or &amp;#39;false&amp;#39; $sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;type&amp;#39;] = &amp;#39;recaptcha&amp;#39;; // value can be &amp;#39;recaptcha&amp;#39; (at this time) if ($sysconf[&amp;#39;captcha&amp;#39;][&amp;#39;smc&amp;#39;][&amp;#39;enable&amp;#39;]) { include_once LIB.</description>
+    </item>
+    
+    <item>
+      <title>10.8 Mensetting Email server</title>
+      <link>/tips-n-trick/1.8-mensetting-email-server/</link>
+      <pubDate>Fri, 26 Oct 2018 20:15:22 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.8-mensetting-email-server/</guid>
+      <description>10.8 Mensetting Email server Sejak Senayan3-stable15 terdapat fitur baru untuk mengirimkan email peringatan/tagihan pada peminjam yang terlambat mengembalikan. Penggunaan fitur ini membutuhkan akun Google/Gmail, karena akan menggunakan fasilitas smpt dari gmail. Seting yang dibutuhkan adalah sebagaimana gambar dibawah ini:
+Seting diatas ada dalam file sysconfig.inc.php. Atau jika anda mau, anda bisa mengcopy setingan Mailing Setting ini ke sysconfig.local.inc.php.
+Bagaimana penggunaannya? Penggunaan fitur email ini ada pada menu Sirkulasi. Ketika memulai sirkulasi (ID anggota dimasukkan), jika anggota tersebut mempunyai pinjaman yang terlambat, maka tampilan yang muncul adalah sebagai berikut:</description>
+    </item>
+    
+    <item>
+      <title>10.7 Menambah jenis ekstensi file yang dapat diunggah pada lampiran bibliografi</title>
+      <link>/tips-n-trick/1.7-menambah-jenis-ekstensi-file/</link>
+      <pubDate>Fri, 26 Oct 2018 20:05:18 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.7-menambah-jenis-ekstensi-file/</guid>
+      <description>10.7 Menambah jenis ekstensi file yang dapat diunggah pada lampiran bibliografi Ketika mengisi data bibliografi, akan ditemukan fasilitas untuk mengunggah file gambar dan file attachment (lampiran). File gambar ada bermacam-macam, demikian pula file dokumen yang akan diunggah.
+JIka anda mengunggah file dan gagal, salah satu kemungkinan (ingat hanya salah satu kemungkinan) adalah ekstensi dokumen/file anda tidak diijinkan diunggah. Misalnya, file berekstensi .WAV. Maka anda bisa melakukan penambahan ekstensi ini agar dapat diunggah.</description>
+    </item>
+    
+    <item>
+      <title>10.8 Merubah Template OPAC</title>
+      <link>/tips-n-trick/1.6-merubah-template-opac/</link>
+      <pubDate>Fri, 26 Oct 2018 20:03:12 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.6-merubah-template-opac/</guid>
+      <description>10.8 Merubah Template OPAC Untuk mendapatkan tampilan yang berbeda dari tampilan standar OPAC pengguna dapat melakukan perubahan pada template yang telah disediakan di dalam distribusi SLiMS. Berikut adalah tampilan standar SLiMS
+Isi dari tampilan di atas dapat dilihat di dalam folder /template/default.
+Gambar-gambar yang berada pada template yang ditampilkan di atas, semuanya terdapat di dalam folder /template/default/img. Semua komponen gambar yang ada seperti logo, gambar latar tinggal diganti menggunakan logo dan gambar latar yang Anda inginkan.</description>
+    </item>
+    
+    <item>
+      <title>10.5 Setting Barcode</title>
+      <link>/tips-n-trick/1.5-setting-barcode/</link>
+      <pubDate>Fri, 26 Oct 2018 20:02:26 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.5-setting-barcode/</guid>
+      <description>10.5 Setting Barcode Untuk mendapatkan hasil pencetakan barcode yang bagus, minimal karakter barcode adalah 6, yang bisa terdiri dari angka atau huruf. Hindari *&amp;amp;()%$#@!, kecuali (-).
+Beberapa contoh pencetakan barcode:</description>
+    </item>
+    
+    <item>
+      <title>10.4 Mengubah Membuat bahasa Pengantar baru</title>
+      <link>/tips-n-trick/1.4-mengubah-membuat-bahasa-pengantar-baru/</link>
+      <pubDate>Fri, 26 Oct 2018 16:59:17 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.4-mengubah-membuat-bahasa-pengantar-baru/</guid>
+      <description>10.4 Mengubah/Membuat bahasa Pengantar baru Tutorial ini ditulis pada saat SLiMS bernama senayan. Sejak Senayan3-stable11, penambahan bahasa pengantar mulai menggunakan fungsi gettext dalam PHP untuk mengganti nilai constant dalam file bahasa sebelumnya (misalnya indonesia.lang.inc.php atau english.lang.inc.php). Kini Default Application Language, Senayan telah menyediakan tiga (3) bahasa yaitu bahasa Indonesia, bahasa Inggris dan bahasa Jerman. untuk bahasa Inggris.
+Petunjuk berikut ini hanya memberikan pengantar kilat untuk menambahkan terjemahan bahasa di Senayan.</description>
+    </item>
+    
+    <item>
+      <title>10.3 Tutorial Upgrade</title>
+      <link>/tips-n-trick/1.3-tutorial-upgrade-aplikasi-perpustakaan-senayan/</link>
+      <pubDate>Fri, 26 Oct 2018 16:46:46 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.3-tutorial-upgrade-aplikasi-perpustakaan-senayan/</guid>
+      <description>10.3 Tutorial Upgrade Aplikasi Perpustakaan SLiMS Pada kali ini, tim SLiMS Developer Community akan memberikan tips dan trik bagaimana melakukan upgrade penggunaan SLiMS dari versi lama hingga versi terkahir. Perlu diketahui SLiMS dirilis ke publik dan diberi nama code nama nama tumbuhan di Indonesia. Hingga saat ini SLiMS selalu terbaharui di Github. Banyak sekali perbaikan perbaikan bugs serta penambahan fitur dan modul di saat pertama kali rilis hingga saat ini.</description>
+    </item>
+    
+    <item>
+      <title>10.2 Pencarian di OPAC dengan kata kunci minimal 3 huruf</title>
+      <link>/tips-n-trick/1.2-pencarian-di-opac-dengan-kata-kunci-minimal-3-huruf/</link>
+      <pubDate>Fri, 26 Oct 2018 16:38:29 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.2-pencarian-di-opac-dengan-kata-kunci-minimal-3-huruf/</guid>
+      <description>10.2 Pencarian di OPAC dengan kata kunci minimal 3 huruf  Buka file my.ini yang terletak di /mysql/my.ini Pada baris 43 tuliskan script berikut:  ft_min_word_len=3   Kemudian simpan dan restart server mysql.
+ Bukalah database SLiMS dengan phpmyadmin
+  phpmyadmin-slims.jpg
+ Klik tabel biblio, kemudian lihat bagian Indexes pada bagian bawah. Anda akan menemukan keyname title_ft dengan field title. Hapus baris tersebut dengan klik X.  phpmyadmin-slims-title.</description>
+    </item>
+    
+    <item>
+      <title>10.1 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman</title>
+      <link>/tips-n-trick/1.1-pengaturan-ukuran-barcode-label-kartu-anggota-dan-nota-peminjaman/</link>
+      <pubDate>Fri, 26 Oct 2018 16:29:47 +0700</pubDate>
+      
+      <guid>/tips-n-trick/1.1-pengaturan-ukuran-barcode-label-kartu-anggota-dan-nota-peminjaman/</guid>
+      <description>10.1 Pengaturan Ukuran barcode, label, kartu anggota dan nota peminjaman Setting ukuran barcode dan label dapat dilakukan dengan melakukan editing file printed_settings.inc.php yang terletak di /senayan3-stable7/admin/admin_template/.
+Dalam file ini akan didapatkan baris-baris kode sebagai berikut:
+// label print settings /* measurement in cm */ $page_width = 50; $page_height = 30; $page_margin = 0.2; $items_per_row = 3; $items_margin = 0.05; $box_width = 8; $box_height = 3.3; $include_header_text = 1; // change to 0 if dont want to use header in each label $header_text = &amp;#39;&amp;#39;; // keep empty if you want to use Library Name as a header text // item barcode print settings /* measurement in cm */ $barcode_page_width = 50; $barcode_page_height = 30; $barcode_page_margin = 0.</description>
+    </item>
+    
+  </channel>
+</rss>

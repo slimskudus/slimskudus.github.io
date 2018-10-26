@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 Membership on Manual SLiMS Kudus</title>
+    <link>/member/</link>
+    <description>Recent content in 3 Membership on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 04:31:58 +0700</lastBuildDate>
+    
+	<atom:link href="/member/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>3.6 Sub-menu Import Data</title>
+      <link>/member/3.6-sub-menu-import-data/</link>
+      <pubDate>Fri, 26 Oct 2018 04:40:33 +0700</pubDate>
+      
+      <guid>/member/3.6-sub-menu-import-data/</guid>
+      <description>3.6 Sub-menu Import Data Menu ini digunakan untuk mengambil data anggota dari luar aplikasi SLiMS. Format data yang di import adalah .csv. Kolom-kolom data yang akan diimpor harus sesuai, seperti yang dicontohkan oleh hasil ekspor yang dibahas pada sub-bab sebelumnya.</description>
+    </item>
+    
+    <item>
+      <title>3.5 Sub-menu Export Data</title>
+      <link>/member/3.5-sub-menu-export-data/</link>
+      <pubDate>Fri, 26 Oct 2018 04:39:49 +0700</pubDate>
+      
+      <guid>/member/3.5-sub-menu-export-data/</guid>
+      <description>3.5 Sub-menu Export Data Menu ini digunakan untuk mengambil data anggota pada pangkalan data SLiMS dan hasilnya adalah data dalam format .csv.
+Contoh keluaran csv dari data anggota adalah:
+ &amp;ldquo;M001&amp;rdquo;,&amp;ldquo;Hendro Wicaksono&amp;rdquo;,&amp;ldquo;0&amp;rdquo;,&amp;ldquo;Mahasiswa&amp;rdquo;,&amp;ldquo;hendrowicaksono@yahoo.com&amp;rdquo;,&amp;ldquo;Jakarta&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;Perpustakaan DIKNAS&amp;rdquo;,&amp;ldquo;&amp;rdquo;,&amp;ldquo;member&amp;#92;_M001.jpeg&amp;rdquo;,&amp;ldquo;KTP No. 123&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;99999&amp;rdquo;,&amp;ldquo;2008-12-25&amp;rdquo;,&amp;ldquo;2008-12-25&amp;rdquo;,&amp;ldquo;2009-12-25&amp;rdquo;,&amp;ldquo;Anggota Teladan tahun 2006&amp;rdquo;
+ Untuk melihat pola kolom yang digunakan pada data anggota di SLiMS dengan jelas, buka berkas .csv menggunakan aplikasi lembar-sebar seperti MS-Excel atau LibreOffice Spreadsheet.</description>
+    </item>
+    
+    <item>
+      <title>3.4 Sub-menu Member Card Printing</title>
+      <link>/member/3.4-sub-menu-member-card-printing/</link>
+      <pubDate>Fri, 26 Oct 2018 04:39:06 +0700</pubDate>
+      
+      <guid>/member/3.4-sub-menu-member-card-printing/</guid>
+      <description>3.4 Sub-menu Member Card Printing Menu ini digunakan untuk mencetak kartu anggota. Cara mencetaknya sama dengan cara mencetak label atau barcode. Informasi yang ada dalam kartu anggota ini adalah: * Member ID; * Member Name; * Member Type; * Barcode; * Foto (Jika ada); * Identitas perpustakaan pada sisi sebaliknya.
+Kartu anggota juga dapat disetel ukurannya melalui Member Card Print Settings yang dilambangkan dengan ikon kunci di sebelah tombol Print Member Cards for Selected Data.</description>
+    </item>
+    
+    <item>
+      <title>3.3 Sub-menu Member Type</title>
+      <link>/member/3.3-sub-menu-member-type/</link>
+      <pubDate>Fri, 26 Oct 2018 04:37:50 +0700</pubDate>
+      
+      <guid>/member/3.3-sub-menu-member-type/</guid>
+      <description>3.3 Sub-menu Member Type Merupakan definisi jenis keanggotaan. Di dalam jenis keanggotaan ini ditetapkan:
+ Member Type Name: Jenis keanggotaan yang diterapkan oleh perpustakaan. Masukkan di sini; Loan Limit: Batas jumlah eksemplar yang dapat dipinjam; Loan Periode (In Days): Lamanya waktu pinjam; Reserve: Pemesanan buku yang dalam status sedang dipinjam; Reserve Limit: batas jumlah eksemplar yang dapat dipesan; Membership Period (In Days): Waktu yang ditentukan untuk masa keanggotaan, disesuaikan dengan ketentuan yang berlaku di perpustakaan; Reborrow Limit: Batas perpanjangan eksemplar yang dipinjam; Fine Each Day: Denda per hari; Overdue Grace Periode: Toleransi keterlambatan (dalam hari).</description>
+    </item>
+    
+    <item>
+      <title>3.2 Sub-menu Add New member</title>
+      <link>/member/3.2-sub-menu-add-new-member/</link>
+      <pubDate>Fri, 26 Oct 2018 04:37:02 +0700</pubDate>
+      
+      <guid>/member/3.2-sub-menu-add-new-member/</guid>
+      <description>3.2 Sub-menu Add New member Fasilitas untuk menambahkan data anggota baru ke dalam sistem SLiMS. Data anggota yang dimasukkan adalah:
+ Member ID: ID Anggota - barcode/RFID; Member Name: Nama Lengkap Anggota; Register Date: Tanggal mendaftar; Expiry Date: Tanggal daluwarsa. Secara baku, opsi Auto Set dicentang. Artinya, masa keanggotaan akan dihitung sesuai tipe keanggotaan yang dipilih. Namun jika tanda centang dihilangkan, maka Expiry date dapat ditentukan secara manual, dengan memilih tanggal daluwarsanya.</description>
+    </item>
+    
+    <item>
+      <title>3.1 Sub-menu View Member List</title>
+      <link>/member/3.1-sub-menu-view-member-list/</link>
+      <pubDate>Fri, 26 Oct 2018 04:36:31 +0700</pubDate>
+      
+      <guid>/member/3.1-sub-menu-view-member-list/</guid>
+      <description>3.1 Sub-menu View Member List Digunakan untuk melihat daftar anggota yang telah terdaftar. Informasi yang ditampilkan adalah:
+ Member ID; Member Name; Membership Type; Email; Last Updated.  Pada daftar ini dilengkapi pula dengan fasilitas hapus (DELETE) dan sunting (EDIT).
+Jika terdapat masa keanggotaan yang daluwarsa, maka kita dapat memperpanjang dengan mengklik menu sunting yang diwakili oleh ikon pena, di samping ruas Member ID atau klik dua kali pada data anggota yang bersangkutan.</description>
+    </item>
+    
+  </channel>
+</rss>

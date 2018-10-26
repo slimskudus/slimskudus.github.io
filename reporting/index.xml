@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 Reporting on Manual SLiMS Kudus</title>
+    <link>/reporting/</link>
+    <description>Recent content in 6 Reporting on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 06:00:24 +0700</lastBuildDate>
+    
+	<atom:link href="/reporting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>6.18 Sub-menu Fines Report</title>
+      <link>/reporting/6.18-sub-menu-fines-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:18:37 +0700</pubDate>
+      
+      <guid>/reporting/6.18-sub-menu-fines-report/</guid>
+      <description>6.18 Sub-menu Fines Report Merupakan laporan jumlah denda anggota perpustakaan berdasarkan hari.</description>
+    </item>
+    
+    <item>
+      <title>6.17 Sub-Menu Visitor List</title>
+      <link>/reporting/6.17-sub-menu-visitor-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:17:35 +0700</pubDate>
+      
+      <guid>/reporting/6.17-sub-menu-visitor-list/</guid>
+      <description> 6.17 Sub-Menu Visitor List Laporan ini berisi daftar nama anggota atau non anggota perpustakaan yang berkunjung ke perpustakaan. Informasi pada penapis pada laporan ini dapat dicari berdasarkan:
+ Membership Type; Visitor ID/Visitor Name; Institution; Visit Date From; Visit Data Until; dan Record Each Page.  Sedangkan pada tabel hasil pencarian, informasi yang ditampilkan adalah:
+ Member ID; Visitor Name; Membership Type; Institution; dan Visit Date.  </description>
+    </item>
+    
+    <item>
+      <title>6.16 Sub-menu Visitor Statictic by Day</title>
+      <link>/reporting/6.16-sub-menu-visitor-statictic-by-day/</link>
+      <pubDate>Fri, 26 Oct 2018 06:16:47 +0700</pubDate>
+      
+      <guid>/reporting/6.16-sub-menu-visitor-statictic-by-day/</guid>
+      <description>6.16 Sub-menu Visitor Statictic by Day Merupakan laporan jumlah pengunjung berdasarkan hari.</description>
+    </item>
+    
+    <item>
+      <title>6.15 Sub-menu Visitor Statistic</title>
+      <link>/reporting/6.15-sub-menu-visitor-statistic/</link>
+      <pubDate>Fri, 26 Oct 2018 06:15:37 +0700</pubDate>
+      
+      <guid>/reporting/6.15-sub-menu-visitor-statistic/</guid>
+      <description>6.15 Sub-menu Visitor Statistic Merupakan laporan yang berisi statistik pengunjung perpustakaan, yang melakukan pendataan pada saat masuk perpustakaan melalui fasilitas absensi. Laporan ini berisi Member Type dan jumlah kunjungan pada tiap bulan pada tahun yang ditentukan. Penentuan laporan berdasar tahun ini dapat dilakukan melalui penapis.</description>
+    </item>
+    
+    <item>
+      <title>Sub-menu Staff Activity</title>
+      <link>/reporting/6.14-sub-menu-staff-activity/</link>
+      <pubDate>Fri, 26 Oct 2018 06:14:47 +0700</pubDate>
+      
+      <guid>/reporting/6.14-sub-menu-staff-activity/</guid>
+      <description>6.14 Sub-menu Staff Activity Menu ini memperlihatkan aktifitas staf perpustakaan yang mempunyai akun di aplikasi SLiMS. Informasi yang ditampilkan adalah:
+ Username; Login Name; Bibliografy Data Entry; Item Data Entry; Member Data Entry; dan Circulation.  Jadi dengan menu ini akan terlihat staf melakukan apa dan berapa kali.
+Untuk memperakurat informasi, disediakan pula penapis yang memungkinkan kita melihat aktifitas dari tanggal awal sampai akhir (seperti yang ditentukan).</description>
+    </item>
+    
+    <item>
+      <title>6.13 Sub-menu Overdued List</title>
+      <link>/reporting/6.13-sub-menu-overdued-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:13:55 +0700</pubDate>
+      
+      <guid>/reporting/6.13-sub-menu-overdued-list/</guid>
+      <description>6.13 Sub-menu Overdued List Berisi laporan/daftar keterlambatan pengembalian anggota perpustakaan. Dalam menu ini terdapat fasilitas untuk mengurutkan dan mencetak.</description>
+    </item>
+    
+    <item>
+      <title>6.12 Sub-menu Due date Warning</title>
+      <link>/reporting/6.12-sub-menu-due-date-warning/</link>
+      <pubDate>Fri, 26 Oct 2018 06:12:22 +0700</pubDate>
+      
+      <guid>/reporting/6.12-sub-menu-due-date-warning/</guid>
+      <description>6.12 Sub-menu Due date Warning Sub-menu ini berisi informasi peminjam koleksi perpustakaan yang dalam 3 (tiga) hari akan tepat pada batas peminjaman.</description>
+    </item>
+    
+    <item>
+      <title>6.11 Sub-menu Loan History</title>
+      <link>/reporting/6.11-sub-menu-loan-history/</link>
+      <pubDate>Fri, 26 Oct 2018 06:10:26 +0700</pubDate>
+      
+      <guid>/reporting/6.11-sub-menu-loan-history/</guid>
+      <description>6.11 Sub-menu Loan History Berisi laporan/daftar sejarah peminjaman perpustakaan.
+Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Pada sub-menu ini, dapat pula dilakukan penapisan dengan menuliskan Member ID/Member Name atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik tombol Show More Filter Options.</description>
+    </item>
+    
+    <item>
+      <title>6.10 Sub-menu Loan List by Member</title>
+      <link>/reporting/6.10-sub-menu-loan-list-by-member/</link>
+      <pubDate>Fri, 26 Oct 2018 06:09:38 +0700</pubDate>
+      
+      <guid>/reporting/6.10-sub-menu-loan-list-by-member/</guid>
+      <description>6.10 Sub-menu Loan List by Member Merupakan laporan yang berisi daftar koleksi yang masih di pinjam Anggota.</description>
+    </item>
+    
+    <item>
+      <title>6.9 Sub-menu Member List</title>
+      <link>/reporting/6.9-sub-menu-member-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:08:46 +0700</pubDate>
+      
+      <guid>/reporting/6.9-sub-menu-member-list/</guid>
+      <description> 6.9 Sub-menu Member List Berisi laporan/daftar anggota perpustakaan. Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Selain itu, terdapat pula fasilitas penapis, yaitu berdasar:
+ Membership Type; Member ID/Member Name; Sex; Address; Register Date From; Register Date Until; dan Record Each Page.  </description>
+    </item>
+    
+    <item>
+      <title>6.8 Sub-menu _Loans by Classification</title>
+      <link>/reporting/6.8-sub-menu-loans-by-classification/</link>
+      <pubDate>Fri, 26 Oct 2018 06:08:01 +0700</pubDate>
+      
+      <guid>/reporting/6.8-sub-menu-loans-by-classification/</guid>
+      <description> 6.8 Sub-menu Loans by Classification Merupakan laporan peminjaman berdasar Klasifikasi. Selain kelas 0-9, pada laporan ini juga dimungkinkan pelaporan berdasarkan kelas 2X dan Non Decimal Class. Sub-menu ini dapat ditapis dengan:
+ Classification; Collection Type; Year; dan Membership Type.  </description>
+    </item>
+    
+    <item>
+      <title>6.7 Sub-menu Item Usage Statistics</title>
+      <link>/reporting/6.7-sub-menu-item-usage-statistics/</link>
+      <pubDate>Fri, 26 Oct 2018 06:06:55 +0700</pubDate>
+      
+      <guid>/reporting/6.7-sub-menu-item-usage-statistics/</guid>
+      <description> 6.7 Sub-menu Item Usage Statistics Merupakan laporan yang menginformasikan jumlah eksemplar, judul, dan berapa kali eksemplar tersebut dipinjam pada setiap bulannya. Isi sub-menu ini dapat pula ditapis dengan:
+ Title/ISBN; Item Code; dan atau Year.  </description>
+    </item>
+    
+    <item>
+      <title>6.6 Sub-menu Items title List</title>
+      <link>/reporting/6.6-sub-menu-items-title-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:05:59 +0700</pubDate>
+      
+      <guid>/reporting/6.6-sub-menu-items-title-list/</guid>
+      <description>6.6 Sub-menu Items title List Berisi laporan/daftar eksemplar yang dimikili oleh perpustakaan. Dalam menu ini terdapat fasilitas untuk mengurutkan dan mencetak. Pada menu ini, dapat pula dilakukan penapisan dengan menuliskan Title/ISBN atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik Show More Filter Options. Fasilitas penapis yang tersedia adalah:
+ Title/ISBN; Item Code; Classification; GMD; Collection Type; Item Status; Location; Publish Year; dan Record Each Page.  Fasilitas penapis ini dapat disembunyikan dengan klik Hide Filter Option.</description>
+    </item>
+    
+    <item>
+      <title>6.5 Sub-menu Title List</title>
+      <link>/reporting/6.5-sub-menu-title-list/</link>
+      <pubDate>Fri, 26 Oct 2018 06:05:13 +0700</pubDate>
+      
+      <guid>/reporting/6.5-sub-menu-title-list/</guid>
+      <description>6.5 Sub-menu Title List Berisi laporan/daftar judul yang dimikili oleh perpustakaan. Dalam sub-menu ini terdapat fasilitas untuk mengurutkan dan mencetak, serta menapis koleksi yang diinginkan. Pada sub-menu ini, dapat pula dilakukan penapisan dengan menuliskan Title/ISBN atau dengan menampilkan fasilitas penapis lainnya. Caranya dengan klik pada tombol Show More Filter Options. Fasilitas penapis yang ada adalah:
+ Title/ISBN; Author; Classification; GMD; Collection Type; Language; Location; Publish Year; dan Record Each Page.</description>
+    </item>
+    
+    <item>
+      <title>6.4 Sub-menu Customs Recapitulations</title>
+      <link>/reporting/6.4-sub-menu-customs-recapitulations/</link>
+      <pubDate>Fri, 26 Oct 2018 06:04:38 +0700</pubDate>
+      
+      <guid>/reporting/6.4-sub-menu-customs-recapitulations/</guid>
+      <description>6.4 Sub-menu Customs Recapitulations Sub-menu ini menampilkan hasil rekapitulasi koleksi berdasar Classification, GMD, Colection Type, dan atau Language. Pilihan ini dapat kita tentukan melalui penapis yang tersedia. SLiMS juga telah mendukung rekap untuk klasifikasi yang bukan didasarkan pada angka desimal. Misalnya REF untuk referensi.</description>
+    </item>
+    
+    <item>
+      <title>6.3 Sub-menu Membership Report</title>
+      <link>/reporting/6.3-sub-menu-membership-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:03:26 +0700</pubDate>
+      
+      <guid>/reporting/6.3-sub-menu-membership-report/</guid>
+      <description>6.3 Sub-menu Membership Report Berisi informasi keanggotaan, yaitu:
+ Total anggota yang terdaftar; Total anggota aktif; Total anggota berdasar tipe anggota; Total anggota yang tidak aktif; dan Daftar 10 (sepuluh) anggota teraktif.  Laporan yang ada dalam tiga menu yang telah disebutkan tadi dapat diperoleh dalam format .html dan dapat dicetak dengan klik tombol Download Report.
+Mulai Senayan3-stable14, ketiga jenis laporan yang telah disebutkan tadi dilengkapi dengan fitur cetak grafik.</description>
+    </item>
+    
+    <item>
+      <title>6.2 Sub-menu Loan Report</title>
+      <link>/reporting/6.2-sub-menu-loan-report/</link>
+      <pubDate>Fri, 26 Oct 2018 06:02:52 +0700</pubDate>
+      
+      <guid>/reporting/6.2-sub-menu-loan-report/</guid>
+      <description> 6.2 Sub-menu Loan Report Berisi informasi seputar peminjaman. Terdiri dari:
+ Total Peminjaman; Peminjaman Berdasarkan GMD; Peminjaman Berdasarkan Tipe Koleksi; Total Transaksi Peminjaman; Rata-rata Transaksi per Hari; Jumlah Anggota yang Sedang Mempunyai Pinjaman; Jumlah Anggota yang Tidak Mempunyai Pinjaman; dan Total Peminjaman yang Terlambat.  </description>
+    </item>
+    
+    <item>
+      <title>6.1 Sub-menu Collection Statistic</title>
+      <link>/reporting/6.1-sub-menu-collection-statistic/</link>
+      <pubDate>Fri, 26 Oct 2018 06:02:18 +0700</pubDate>
+      
+      <guid>/reporting/6.1-sub-menu-collection-statistic/</guid>
+      <description>6.1 Sub-menu Collection Statistic Berisi informasi total judul koleksi, total eksemplar, total eksemplar yang sedang dipinjam, total eksemplar yang berada di perpustakaan (tidak dipinjam), total judul berdasar GMD, total items berdasar tipe koleksi dan 10 (sepuluh) koleksi paling populer (paling banyak dipinjam).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>12 UCS on Manual SLiMS Kudus</title>
+    <link>/ucs/</link>
+    <description>Recent content in 12 UCS on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Oct 2018 21:11:13 +0700</lastBuildDate>
+    
+	<atom:link href="/ucs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>12.3 Modul Administrasi UCS</title>
+      <link>/ucs/12.3-modul-administrasi-ucs/</link>
+      <pubDate>Fri, 26 Oct 2018 21:37:48 +0700</pubDate>
+      
+      <guid>/ucs/12.3-modul-administrasi-ucs/</guid>
+      <description>12.3 Modul Administrasi UCS Modul adminitrasi UCS dapat diakses dengan menambahkan url /ucs/index.php?p=login. Standar untuk masuk pada modul ini adalah username admin dan password admin. Maka UCS akan menampilkan modul administrasinya sebagai berikut:
+Halaman admin ini digunakan untuk mengelola data yang sudah ada dalam server UCS. Modul dalam UCS ini adalah Bibliography, Master File dan System.
+12.3.1 Bibliography Bibliography ini digunakan untuk mengelola data bibliografi yang sudah diada di server UCS.</description>
+    </item>
+    
+    <item>
+      <title>12.1 Mengaktifkan UCS</title>
+      <link>/ucs/12.1-mengaktifkan-ucs/</link>
+      <pubDate>Fri, 26 Oct 2018 21:36:28 +0700</pubDate>
+      
+      <guid>/ucs/12.1-mengaktifkan-ucs/</guid>
+      <description>12.1 Mengaktifkan UCS Fitur UCS ada di bawah master senayan, pada senayan3-stable14 ada pada /senayan3-stable14/ucs. UCS menggunakan library Simbio yang ada di master Senayan, sehingga UCS versi 1.0 tidak bisa diinstall berbeda dari master senayan.
+Sedangkan sejak SLiMS 5 UCS adalah project terpisah. UCS versi 2.0 dapat diunduh di https://github.com/slims/ucs-2.0
+Untuk mengaktifkan fitur UCS pada Senayan, dapat dilakukan dengan langkah di bawah ini:
+12.1.1 Membuat database UCS UCS versi 1.</description>
+    </item>
+    
+  </channel>
+</rss>

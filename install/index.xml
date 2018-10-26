@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 Install on Manual SLiMS Kudus</title>
+    <link>/install/</link>
+    <description>Recent content in 1 Install on Manual SLiMS Kudus</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Oct 2018 10:23:18 +0700</lastBuildDate>
+    
+	<atom:link href="/install/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.3 Install SLiMS Di Mac</title>
+      <link>/install/1.3-install-slims-di-mac/</link>
+      <pubDate>Fri, 26 Oct 2018 13:28:11 +0700</pubDate>
+      
+      <guid>/install/1.3-install-slims-di-mac/</guid>
+      <description>1.3 Install SLiMS Di Mac  Unduh (download) paket XAMPP untuk Mac di laman (website) Apachefriends. Inget ya, yang versi Mac,   Download file Universal binary dalam format .dmg yang disediakan. Jangan lupa download juga paket development-nya agar kita bisa meng-compile library YAZ dan PHP-YAZ nanti.
+ Setelah selesai di-download, klik dua kali pada file image .dmg XAMPP untuk membuka installer-nya. Drag folder XAMPP ke folder Applications untuk menginstall.</description>
+    </item>
+    
+    <item>
+      <title>1.2 Install SLiMS di Linux</title>
+      <link>/install/1.2-install-slims-di-linux/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:59 +0700</pubDate>
+      
+      <guid>/install/1.2-install-slims-di-linux/</guid>
+      <description>1.2 Instalasi SLiMS di Linux Agar SLiMS dapat dipasang, pastikan web server (peladen web, misalnya Apache web server), MySQL (aplikasi pangkalan data), dan PHP (bahasa pemrograman) telah terpasang pada perangkat keras peladen dan berjalan dengan baik. Akan lebih membantu apabila aplikasi PHPMyAdmin atau Adminer juga dipasang untuk membantu dalam penyetelan pangkalan data melalui antar muka web. Jika SLiMS digunakan di internet (publik), disarankan untuk meningkatkan keamanan dengan menambahkan firewall di sisi TCP/IP (layer 3 dan 4 dari OSI layer), di sisi aplikasi (contoh modsecurity) dan di sisi database (contoh greensql).</description>
+    </item>
+    
+    <item>
+      <title>1.1.1 Install Pslims</title>
+      <link>/install/1.1.1-install-pslims/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:42 +0700</pubDate>
+      
+      <guid>/install/1.1.1-install-pslims/</guid>
+      <description>1.1.1 Instalasi SLiMS Portabel (PSLiMS) di MS-Windows Portable SLiMS for Windows (PSLiMS) adalah paket perangkat lunak yang terdiri dari aplikasi SLiMS, Apache Web Server, PHP Scripting engine, MySQL Database Server dan PHPMyAdmin, di dalamnya, library YAZ yang digunakan untuk mengaktifkan fitur copy cataloging menggunakan z39.50 sudah terinstall. PSLiMS ditujukan agar orang mudah melakukan instalasi SLiMS tanpa dibuat bingung cara memasang perangkat lunak lain (web server, mysql, php, YAZ) terlebih dahulu.</description>
+    </item>
+    
+    <item>
+      <title>1.1 Install SLiMS di Windows</title>
+      <link>/install/1.1-install-slims-di-windows/</link>
+      <pubDate>Fri, 26 Oct 2018 13:27:41 +0700</pubDate>
+      
+      <guid>/install/1.1-install-slims-di-windows/</guid>
+      <description>1.1 Sistem Operasi MS-Windows Bagi pengguna sistem operasi ini, penggunaan Apache, PHP, MySQL sudah tersedia dalam bentuk paket. Banyak paket yang bisa dimanfaatkan. Salah satu yang terkenal adalah XAMPP oleh Apache Friends. Aplikasi ini dapat diunduh di http://apachefriends.org.
+Setelah memasang XAMPP, untuk bisa memulai layanan peladen web dan pangkalan data dengan memilih XAMPP control panel dari menu aplikasi.
+Jika Anda menggunakan XAMPP, maka direktori root web berada di xampp/htdocs. Untuk memulai pemasangan SLiMS menggunakan kode sumber, salinkan berkas kode sumber SLiMS, seperti yang sudah dituliskan pada bab sebelumnya, ke dalam direktori tersebut.</description>
+    </item>
+    
+  </channel>
+</rss>
